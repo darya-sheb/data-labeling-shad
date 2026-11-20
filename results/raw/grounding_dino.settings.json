@@ -1,0 +1,20 @@
+{
+  "config": {
+    "name": "grounding_dino",
+    "backend": "dino",
+    "model_id": "IDEA-Research/grounding-dino-tiny",
+    "prompt": "butterfly. moth.",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "candidate_threshold": 0.3,
+    "threshold": 0.3,
+    "text_threshold": 0.25,
+    "max_new_tokens": 512,
+    "image_max_side": 1024,
+    "load_in_4bit": false
+  },
+  "device": "cpu",
+  "gpu": null,
+  "torch": "2.6.0+cpu",
+  "transformers": "5.23.0",
+  "manifest_hash": "ff95168fc41cc3fb8219d65ca9720d447cccd4cc0ca657fe88906a82b0fbee4b"
+}
