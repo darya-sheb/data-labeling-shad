@@ -1,0 +1,222 @@
+{
+  "bbox": {
+    "public_name": "Бабочки — исправление рамок",
+    "public_description": "Исправляйте и добавляйте прямоугольные рамки вокруг бабочек. Одна фотография на страницу.",
+    "assignments_issuing_type": "AUTOMATED",
+    "assignments_automerge_enabled": false,
+    "task_spec": {
+      "input_spec": {
+        "image_id": {
+          "type": "string",
+          "hidden": true,
+          "required": true
+        },
+        "practice": {
+          "type": "boolean",
+          "hidden": false,
+          "required": true
+        },
+        "revision": {
+          "type": "integer",
+          "hidden": true,
+          "required": true
+        },
+        "image_url": {
+          "type": "url",
+          "hidden": false,
+          "required": true
+        },
+        "fixed_boxes": {
+          "type": "json",
+          "hidden": false,
+          "required": true
+        },
+        "iou_threshold": {
+          "type": "float",
+          "hidden": false,
+          "required": false
+        },
+        "reference_boxes": {
+          "type": "json",
+          "hidden": false,
+          "required": false
+        },
+        "display_image_url": {
+          "type": "url",
+          "hidden": false,
+          "required": true
+        },
+        "correction_feedback": {
+          "type": "json",
+          "hidden": false,
+          "required": false
+        },
+        "editable_annotations": {
+          "type": "json",
+          "hidden": false,
+          "required": true
+        }
+      },
+      "output_spec": {
+        "result": {
+          "type": "json",
+          "hidden": false,
+          "required": false
+        },
+        "reviewed": {
+          "type": "boolean",
+          "hidden": false,
+          "required": true
+        },
+        "empty_confirmed": {
+          "type": "boolean",
+          "hidden": false,
+          "required": false
+        },
+        "practice_passed": {
+          "type": "boolean",
+          "hidden": false,
+          "required": true
+        }
+      },
+      "view_spec": {
+        "type": "classic",
+        "assets": {
+          "script_urls": [
+            "$TOLOKA_ASSETS/js/toloka-handlebars-templates.js",
+            "$TOLOKA_ASSETS/js/image-annotation.js"
+          ]
+        },
+        "settings": {
+          "showSkip": true,
+          "showTimer": true,
+          "showTitle": true,
+          "showFinish": true,
+          "showSubmit": true,
+          "showFullscreen": false,
+          "showInstructions": true
+        }
+      }
+    }
+  },
+  "validation": {
+    "public_name": "Бабочки — проверка рамок и пропусков",
+    "public_description": "Проверяйте границы рамок и находите пропущенных бабочек. Одна фотография на страницу: сначала рамки, затем пропуски.",
+    "assignments_issuing_type": "AUTOMATED",
+    "assignments_automerge_enabled": false,
+    "task_spec": {
+      "input_spec": {
+        "image_id": {
+          "type": "string",
+          "hidden": true,
+          "required": true
+        },
+        "revision": {
+          "type": "integer",
+          "hidden": true,
+          "required": true
+        },
+        "training": {
+          "type": "boolean",
+          "hidden": false,
+          "required": false
+        },
+        "box_count": {
+          "type": "integer",
+          "hidden": false,
+          "required": false
+        },
+        "box_index": {
+          "type": "integer",
+          "hidden": false,
+          "required": false
+        },
+        "image_url": {
+          "type": "url",
+          "hidden": false,
+          "required": true
+        },
+        "focus_bbox": {
+          "type": "json",
+          "hidden": false,
+          "required": true
+        },
+        "review_type": {
+          "type": "string",
+          "hidden": false,
+          "required": true,
+          "allowed_values": [
+            "box",
+            "coverage"
+          ]
+        },
+        "focus_box_id": {
+          "type": "string",
+          "hidden": false,
+          "required": true
+        },
+        "context_boxes": {
+          "type": "json",
+          "hidden": false,
+          "required": true
+        },
+        "training_hint": {
+          "type": "string",
+          "hidden": false,
+          "required": false
+        },
+        "review_item_id": {
+          "type": "string",
+          "hidden": true,
+          "required": true
+        },
+        "expected_answer": {
+          "type": "string",
+          "hidden": false,
+          "required": false
+        }
+      },
+      "output_spec": {
+        "answer": {
+          "type": "string",
+          "hidden": false,
+          "required": true,
+          "allowed_values": [
+            "box_correct",
+            "bad_geometry",
+            "extra_box",
+            "duplicate",
+            "missing_no",
+            "missing_yes"
+          ]
+        },
+        "duplicate_reason": {
+          "type": "string",
+          "hidden": false,
+          "required": false,
+          "allowed_values": [
+            "fixed",
+            "earlier"
+          ]
+        }
+      },
+      "view_spec": {
+        "type": "classic",
+        "assets": {
+          "script_urls": [
+            "$TOLOKA_ASSETS/js/toloka-handlebars-templates.js"
+          ]
+        },
+        "settings": {
+          "showSkip": true,
+          "showTimer": true,
+          "showTitle": true,
+          "showFinish": true,
+          "showSubmit": true,
+          "showFullscreen": false,
+          "showInstructions": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "image_id": "764897367",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764897367/original.jpg",
+    "frames": [
+      {
+        "box_id": "764897367_b0",
+        "bbox": [
+          0.421876,
+          0.364064,
+          0.584054,
+          0.60003
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764906274",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764906274/original.jpg",
+    "frames": [
+      {
+        "box_id": "764906274_b0",
+        "bbox": [
+          0.279979,
+          0.297432,
+          0.589855,
+          0.71093
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "bad_geometry",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764751219",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764751219/original.jpg",
+    "frames": [
+      {
+        "box_id": "764751219_b0",
+        "bbox": [
+          0.165712,
+          0.07769,
+          0.771861,
+          0.986159
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "bad_geometry",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764734529",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734529/original.jpg",
+    "frames": [
+      {
+        "box_id": "764734529_b0",
+        "bbox": [
+          0.321881,
+          0.340751,
+          0.617755,
+          0.70609
+        ],
+        "fixed": false
+      },
+      {
+        "box_id": "764734529_candidate",
+        "bbox": [
+          0.27077,
+          0.39618,
+          0.3139,
+          0.45848
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "extra_box",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764834841",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764834841/original.jpg",
+    "frames": [
+      {
+        "box_id": "764834841_b0",
+        "bbox": [
+          0.116087,
+          0.271267,
+          0.74161,
+          0.66457
+        ],
+        "fixed": true
+      },
+      {
+        "box_id": "764834841_candidate",
+        "bbox": [
+          0.116087,
+          0.271267,
+          0.761077,
+          0.66457
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "duplicate",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764725907",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764725907/original.jpg",
+    "frames": [
+      {
+        "box_id": "764725907_b0",
+        "bbox": [
+          0.45367,
+          0.343432,
+          0.7114,
+          0.57029
+        ],
+        "fixed": false
+      },
+      {
+        "box_id": "764725907_candidate",
+        "bbox": [
+          0.45367,
+          0.343432,
+          0.7114,
+          0.57029
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "duplicate",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764718337",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718337/original.jpg",
+    "frames": [
+      {
+        "box_id": "764718337_b0",
+        "bbox": [
+          0.339684,
+          0.370891,
+          0.62301,
+          0.64538
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764727705",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764727705/original.jpg",
+    "frames": [
+      {
+        "box_id": "764727705_candidate",
+        "bbox": [
+          0.09766,
+          0.39,
+          0.31766,
+          0.61
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "extra_box",
+      "missing_yes"
+    ]
+  },
+  {
+    "image_id": "764928063",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764928063/original.jpg",
+    "frames": [
+      {
+        "box_id": "764928063_b0",
+        "bbox": [
+          0.05399,
+          0.248727,
+          0.88936,
+          0.68694
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764897335",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764897335/original.jpg",
+    "frames": [
+      {
+        "box_id": "764897335_b0",
+        "bbox": [
+          0.403806,
+          0.413106,
+          0.58228,
+          0.630014
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "bad_geometry",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764864831",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764864831/original.jpg",
+    "frames": [
+      {
+        "box_id": "764864831_b0",
+        "bbox": [
+          0.045562,
+          0.469186,
+          0.354652,
+          0.807534
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "bad_geometry",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764864914",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764864914/original.jpg",
+    "frames": [
+      {
+        "box_id": "764864914_b0",
+        "bbox": [
+          0.400626,
+          0.356661,
+          0.55485,
+          0.59105
+        ],
+        "fixed": false
+      },
+      {
+        "box_id": "764864914_candidate",
+        "bbox": [
+          0.73482,
+          0.51757,
+          0.78701,
+          0.6246
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "extra_box",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764833402",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764833402/original.jpg",
+    "frames": [
+      {
+        "box_id": "764833402_b0",
+        "bbox": [
+          0.179492,
+          0.281855,
+          0.77002,
+          0.649658
+        ],
+        "fixed": true
+      },
+      {
+        "box_id": "764833402_candidate",
+        "bbox": [
+          0.15912,
+          0.28436,
+          0.81833,
+          0.66297
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "duplicate",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764738601",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764738601/original.jpg",
+    "frames": [
+      {
+        "box_id": "764738601_b0",
+        "bbox": [
+          0.297794,
+          0.19969,
+          0.73826,
+          0.66358
+        ],
+        "fixed": false
+      },
+      {
+        "box_id": "764738601_candidate",
+        "bbox": [
+          0.297794,
+          0.19969,
+          0.74905,
+          0.65657
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "duplicate",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764732151",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764732151/original.jpg",
+    "frames": [
+      {
+        "box_id": "764732151_b0",
+        "bbox": [
+          0.39591,
+          0.332295,
+          0.59111,
+          0.609958
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764734520",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734520/original.jpg",
+    "frames": [
+      {
+        "box_id": "764734520_candidate",
+        "bbox": [
+          0.7548,
+          0.48883,
+          0.82669,
+          0.59746
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "extra_box",
+      "missing_yes"
+    ]
+  },
+  {
+    "image_id": "764718494",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718494/original.jpg",
+    "frames": [
+      {
+        "box_id": "764718494_b0",
+        "bbox": [
+          0.337661,
+          0.298374,
+          0.59831,
+          0.64538
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764833353",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764833353/original.jpg",
+    "frames": [
+      {
+        "box_id": "764833353_b0",
+        "bbox": [
+          0.162649,
+          0.287467,
+          0.665324,
+          0.644588
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "bad_geometry",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764718013",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718013/original.jpg",
+    "frames": [
+      {
+        "box_id": "764718013_b0",
+        "bbox": [
+          0.33799,
+          0.29873,
+          0.687057,
+          0.62941
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "bad_geometry",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764734134",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734134/original.jpg",
+    "frames": [
+      {
+        "box_id": "764734134_b0",
+        "bbox": [
+          0.422398,
+          0.276546,
+          0.60105,
+          0.5719
+        ],
+        "fixed": false
+      },
+      {
+        "box_id": "764734134_candidate",
+        "bbox": [
+          0.54499,
+          0.15016,
+          0.58199,
+          0.1901
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "extra_box",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764734248",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734248/original.jpg",
+    "frames": [
+      {
+        "box_id": "764734248_b0",
+        "bbox": [
+          0.316447,
+          0.32638,
+          0.66569,
+          0.61503
+        ],
+        "fixed": true
+      },
+      {
+        "box_id": "764734248_candidate",
+        "bbox": [
+          0.31736,
+          0.32908,
+          0.66569,
+          0.61503
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "duplicate",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764833195",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764833195/original.jpg",
+    "frames": [
+      {
+        "box_id": "764833195_b0",
+        "bbox": [
+          0.169708,
+          0.323854,
+          0.69899,
+          0.62623
+        ],
+        "fixed": false
+      },
+      {
+        "box_id": "764833195_candidate",
+        "bbox": [
+          0.20742,
+          0.34826,
+          0.726214,
+          0.62623
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "duplicate",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764906292",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764906292/original.jpg",
+    "frames": [
+      {
+        "box_id": "764906292_b0",
+        "bbox": [
+          0.48643,
+          0.34825,
+          0.55951,
+          0.50001
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "box_correct",
+      "missing_no"
+    ]
+  },
+  {
+    "image_id": "764718287",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718287/original.jpg",
+    "frames": [
+      {
+        "box_id": "764718287_candidate",
+        "bbox": [
+          0.479941,
+          0.596766,
+          0.573154,
+          0.710999
+        ],
+        "fixed": false
+      }
+    ],
+    "answers": [
+      "extra_box",
+      "missing_yes"
+    ]
+  }
+]

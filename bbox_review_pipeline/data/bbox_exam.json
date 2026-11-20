@@ -1,0 +1,220 @@
+[
+  {
+    "image_id": "764916073",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764916073/original.jpg",
+    "boxes": [
+      [
+        0.083045,
+        0.276,
+        0.91579,
+        0.789495
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.033597,
+        0.216577,
+        0.91579,
+        0.769863
+      ]
+    ]
+  },
+  {
+    "image_id": "764901584",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764901584/original.jpg",
+    "boxes": [
+      [
+        0.306135,
+        0.08491,
+        0.90386,
+        0.93426
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.027099,
+        0.054982,
+        0.877903,
+        0.93426
+      ]
+    ]
+  },
+  {
+    "image_id": "764795960",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764795960/original.jpg",
+    "boxes": [
+      [
+        0.073,
+        0,
+        0.967,
+        0.6388
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.216236,
+        0.046364,
+        0.797605,
+        0.622158
+      ]
+    ]
+  },
+  {
+    "image_id": "764855379",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764855379/original.jpg",
+    "boxes": [],
+    "fixed_boxes": [
+      {
+        "box_id": "764855379_fixed",
+        "bbox": [
+          0.285,
+          0.319,
+          0.694,
+          0.619
+        ]
+      }
+    ],
+    "reference_boxes": [
+      [
+        0.202992,
+        0.496768,
+        0.74588,
+        0.73804
+      ]
+    ]
+  },
+  {
+    "image_id": "764745663",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764745663/original.jpg",
+    "boxes": [
+      [
+        0.3214,
+        0.076492,
+        0.767321,
+        0.685826
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.268088,
+        0.076492,
+        0.767321,
+        0.936693
+      ]
+    ]
+  },
+  {
+    "image_id": "764749724",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764749724/original.jpg",
+    "boxes": [
+      [
+        0.335,
+        0.302,
+        0.767,
+        0.868
+      ],
+      [
+        0.323,
+        0.314,
+        0.779,
+        0.877
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.304703,
+        0.302,
+        0.777385,
+        0.86973
+      ]
+    ]
+  },
+  {
+    "image_id": "764734220",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734220/original.jpg",
+    "boxes": [],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.397474,
+        0.416663,
+        0.62541,
+        0.5687
+      ]
+    ]
+  },
+  {
+    "image_id": "764718489",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718489/original.jpg",
+    "boxes": [
+      [
+        0.345,
+        0.344,
+        0.657,
+        0.733
+      ],
+      [
+        0.035,
+        0.065,
+        0.21,
+        0.24
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.350999,
+        0.293244,
+        0.657,
+        0.717389
+      ]
+    ]
+  },
+  {
+    "image_id": "764727755",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764727755/original.jpg",
+    "boxes": [
+      [
+        0.421,
+        0.314,
+        0.7,
+        0.662
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.42871,
+        0.314,
+        0.7,
+        0.633858
+      ]
+    ]
+  },
+  {
+    "image_id": "764735712",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764735712/original.jpg",
+    "boxes": [
+      [
+        0,
+        0.299,
+        0.871438,
+        0.829
+      ]
+    ],
+    "fixed_boxes": [],
+    "reference_boxes": [
+      [
+        0.036223,
+        0.174956,
+        0.909511,
+        0.777338
+      ]
+    ]
+  }
+]

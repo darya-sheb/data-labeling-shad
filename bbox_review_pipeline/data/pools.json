@@ -1,0 +1,338 @@
+{
+  "trainings": {
+    "bbox": {
+      "project_id": "@project:bbox",
+      "private_name": "bbox_practice",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 1200,
+      "inherited_instructions": true,
+      "mix_tasks_in_creation_order": true,
+      "shuffle_tasks_in_task_suite": false,
+      "training_tasks_in_task_suite_count": 1,
+      "task_suites_required_to_pass": 9,
+      "retry_training_after_days": 1
+    },
+    "validation": {
+      "project_id": "@project:validation",
+      "private_name": "validation_training — пять бабочек",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 1200,
+      "inherited_instructions": true,
+      "mix_tasks_in_creation_order": true,
+      "shuffle_tasks_in_task_suite": false,
+      "training_tasks_in_task_suite_count": 6,
+      "task_suites_required_to_pass": 1,
+      "retry_training_after_days": 1
+    }
+  },
+  "pools": {
+    "bbox_qualification": {
+      "project_id": "@project:bbox",
+      "private_name": "bbox_qualification",
+      "public_description": "Экзамен по разметке бабочек. Исправьте рамки и выделите пропущенных бабочек на десяти фотографиях.",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 3600,
+      "auto_accept_solutions": false,
+      "auto_accept_period_day": "@settings:exam_review_days",
+      "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": true
+      },
+      "filter": {
+        "and": [
+          {
+            "category": "profile",
+            "key": "languages",
+            "operator": "IN",
+            "value": "RU"
+          },
+          {
+            "category": "computed",
+            "key": "device_category",
+            "operator": "EQ",
+            "value": "PERSONAL_COMPUTER"
+          },
+          {
+            "category": "skill",
+            "key": "@skill:annotation_quality",
+            "operator": "EQ"
+          }
+        ]
+      },
+      "quality_control": {
+        "training_requirement": {
+          "training_passing_skill_value": 100,
+          "training_pool_id": "@training:bbox"
+        },
+        "configs": []
+      },
+      "defaults": {
+        "default_overlap_for_new_task_suites": "@settings:exam_participants:bbox_qualification"
+      },
+      "priority": 0,
+      "auto_close_after_complete_delay_seconds": 0
+    },
+    "bbox_production": {
+      "project_id": "@project:bbox",
+      "private_name": "bbox_production",
+      "public_description": "Разметка бабочек",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 1200,
+      "auto_accept_solutions": true,
+      "auto_accept_period_day": 21,
+      "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": true
+      },
+      "filter": {
+        "and": [
+          {
+            "category": "profile",
+            "key": "languages",
+            "operator": "IN",
+            "value": "RU"
+          },
+          {
+            "category": "computed",
+            "key": "device_category",
+            "operator": "EQ",
+            "value": "PERSONAL_COMPUTER"
+          },
+          {
+            "category": "skill",
+            "key": "@skill:annotation_quality",
+            "operator": "GTE",
+            "value": "@settings:annotation_threshold"
+          },
+          {
+            "or": [
+              {
+                "category": "skill",
+                "key": "@skill:annotation_work_quality",
+                "operator": "EQ"
+              },
+              {
+                "category": "skill",
+                "key": "@skill:annotation_work_quality",
+                "operator": "GTE",
+                "value": "@settings:work_quality:ban_below"
+              }
+            ]
+          }
+        ]
+      },
+      "quality_control": {
+        "training_requirement": {
+          "training_passing_skill_value": 100,
+          "training_pool_id": "@training:bbox"
+        },
+        "configs": []
+      },
+      "defaults": {
+        "default_overlap_for_new_task_suites": 1
+      },
+      "priority": 0,
+      "auto_close_after_complete_delay_seconds": "@settings:work_pool_close_delay_seconds"
+    },
+    "validation_exam": {
+      "project_id": "@project:validation",
+      "private_name": "validation_exam",
+      "public_description": "Экзамен по проверке разметки. Проверьте рамки и найдите пропущенных бабочек на десяти фотографиях.",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 900,
+      "auto_accept_solutions": false,
+      "auto_accept_period_day": "@settings:exam_review_days",
+      "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": true
+      },
+      "filter": {
+        "and": [
+          {
+            "category": "profile",
+            "key": "languages",
+            "operator": "IN",
+            "value": "RU"
+          },
+          {
+            "category": "computed",
+            "key": "device_category",
+            "operator": "EQ",
+            "value": "PERSONAL_COMPUTER"
+          },
+          {
+            "category": "skill",
+            "key": "@skill:validation_quality",
+            "operator": "EQ"
+          }
+        ]
+      },
+      "quality_control": {
+        "training_requirement": {
+          "training_passing_skill_value": 80,
+          "training_pool_id": "@training:validation"
+        },
+        "configs": [
+          {
+            "collector_config": {
+              "type": "GOLDEN_SET",
+              "parameters": {
+                "history_size": "@settings:validation_exam_questions"
+              }
+            },
+            "rules": [
+              {
+                "conditions": [
+                  {
+                    "key": "golden_set_answers_count",
+                    "operator": "GTE",
+                    "value": "@settings:validation_exam_questions"
+                  }
+                ],
+                "action": {
+                  "type": "SET_SKILL_FROM_OUTPUT_FIELD",
+                  "parameters": {
+                    "from_field": "correct_answers_rate",
+                    "skill_id": "@skill:validation_quality"
+                  }
+                }
+              },
+              {
+                "conditions": [
+                  {
+                    "key": "golden_set_answers_count",
+                    "operator": "GTE",
+                    "value": "@settings:validation_exam_questions"
+                  },
+                  {
+                    "key": "correct_answers_rate",
+                    "operator": "GTE",
+                    "value": "@settings:validation_threshold"
+                  }
+                ],
+                "action": {
+                  "type": "APPROVE_ALL_ASSIGNMENTS",
+                  "parameters": {}
+                }
+              },
+              {
+                "conditions": [
+                  {
+                    "key": "golden_set_answers_count",
+                    "operator": "GTE",
+                    "value": "@settings:validation_exam_questions"
+                  },
+                  {
+                    "key": "correct_answers_rate",
+                    "operator": "LT",
+                    "value": "@settings:validation_threshold"
+                  }
+                ],
+                "action": {
+                  "type": "REJECT_ALL_ASSIGNMENTS",
+                  "parameters": {
+                    "public_comment": "Экзамен не пройден. Ответы по рамкам и пропускам не набрали проходной балл."
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "defaults": {
+        "default_overlap_for_new_task_suites": "@settings:exam_participants:validation_exam"
+      },
+      "priority": 0,
+      "auto_close_after_complete_delay_seconds": 0
+    },
+    "validation_annotation_exam": {
+      "project_id": "@project:validation",
+      "private_name": "validation_annotation_exam",
+      "public_description": "Независимая проверка рамок и пропусков",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 900,
+      "auto_accept_solutions": true,
+      "auto_accept_period_day": 21,
+      "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": true
+      },
+      "filter": {
+        "and": [
+          {
+            "category": "profile",
+            "key": "languages",
+            "operator": "IN",
+            "value": "RU"
+          },
+          {
+            "category": "computed",
+            "key": "device_category",
+            "operator": "EQ",
+            "value": "PERSONAL_COMPUTER"
+          },
+          {
+            "category": "skill",
+            "key": "@skill:validation_quality",
+            "operator": "GTE",
+            "value": "@settings:validation_threshold"
+          }
+        ]
+      },
+      "quality_control": {
+        "training_requirement": {
+          "training_passing_skill_value": 80,
+          "training_pool_id": "@training:validation"
+        },
+        "configs": []
+      },
+      "defaults": {
+        "default_overlap_for_new_task_suites": "@settings:validation_overlap"
+      },
+      "priority": "@settings:annotation_exam_review_priority",
+      "auto_close_after_complete_delay_seconds": "@settings:work_pool_close_delay_seconds"
+    },
+    "validation_production": {
+      "project_id": "@project:validation",
+      "private_name": "validation_production",
+      "public_description": "Независимая проверка рамок и пропусков",
+      "may_contain_adult_content": false,
+      "assignment_max_duration_seconds": 900,
+      "auto_accept_solutions": true,
+      "auto_accept_period_day": 21,
+      "assignments_issuing_config": {
+        "issue_task_suites_in_creation_order": true
+      },
+      "filter": {
+        "and": [
+          {
+            "category": "profile",
+            "key": "languages",
+            "operator": "IN",
+            "value": "RU"
+          },
+          {
+            "category": "computed",
+            "key": "device_category",
+            "operator": "EQ",
+            "value": "PERSONAL_COMPUTER"
+          },
+          {
+            "category": "skill",
+            "key": "@skill:validation_quality",
+            "operator": "GTE",
+            "value": "@settings:validation_threshold"
+          }
+        ]
+      },
+      "quality_control": {
+        "training_requirement": {
+          "training_passing_skill_value": 80,
+          "training_pool_id": "@training:validation"
+        },
+        "configs": []
+      },
+      "defaults": {
+        "default_overlap_for_new_task_suites": "@settings:validation_overlap"
+      },
+      "priority": 0,
+      "auto_close_after_complete_delay_seconds": "@settings:work_pool_close_delay_seconds"
+    }
+  }
+}

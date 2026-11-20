@@ -1,0 +1,388 @@
+[
+  {
+    "input_values": {
+      "review_item_id": "764756889_b0",
+      "review_type": "box",
+      "image_id": "764756889",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764756889/original.jpg",
+      "focus_box_id": "764756889_b0",
+      "focus_bbox": [
+        0.386902,
+        0.319154,
+        0.680914,
+        0.67414
+      ],
+      "box_index": 0,
+      "box_count": 1,
+      "context_boxes": [
+        {
+          "box_id": "764756889_b0",
+          "bbox": [
+            0.386902,
+            0.319154,
+            0.680914,
+            0.67414
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "box_correct"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764738076_b0",
+      "review_type": "box",
+      "image_id": "764738076",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764738076/original.jpg",
+      "focus_box_id": "764738076_b0",
+      "focus_bbox": [
+        0.25382,
+        0.15336,
+        0.793775,
+        0.923545
+      ],
+      "box_index": 0,
+      "box_count": 1,
+      "context_boxes": [
+        {
+          "box_id": "764738076_b0",
+          "bbox": [
+            0.25382,
+            0.15336,
+            0.793775,
+            0.923545
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "bad_geometry"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764734449_candidate",
+      "review_type": "box",
+      "image_id": "764734449",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734449/original.jpg",
+      "focus_box_id": "764734449_candidate",
+      "focus_bbox": [
+        0.397893,
+        0.297294,
+        0.48037,
+        0.364064
+      ],
+      "box_index": 1,
+      "box_count": 2,
+      "context_boxes": [
+        {
+          "box_id": "764734449_b0",
+          "bbox": [
+            0.44058,
+            0.373612,
+            0.577166,
+            0.53867
+          ],
+          "fixed": false
+        },
+        {
+          "box_id": "764734449_candidate",
+          "bbox": [
+            0.397893,
+            0.297294,
+            0.48037,
+            0.364064
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "extra_box"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764834793_candidate",
+      "review_type": "box",
+      "image_id": "764834793",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764834793/original.jpg",
+      "focus_box_id": "764834793_candidate",
+      "focus_bbox": [
+        0,
+        0.376872,
+        0.840637,
+        0.708726
+      ],
+      "box_index": 1,
+      "box_count": 2,
+      "context_boxes": [
+        {
+          "box_id": "764834793_b0",
+          "bbox": [
+            0,
+            0.376872,
+            0.840637,
+            0.708726
+          ],
+          "fixed": true
+        },
+        {
+          "box_id": "764834793_candidate",
+          "bbox": [
+            0,
+            0.376872,
+            0.840637,
+            0.708726
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "duplicate",
+          "duplicate_reason": "fixed"
+        },
+        "correctness_weight": 1.0
+      },
+      {
+        "output_values": {
+          "answer": "duplicate",
+          "duplicate_reason": "earlier"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764749857_b0",
+      "review_type": "box",
+      "image_id": "764749857",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764749857/original.jpg",
+      "focus_box_id": "764749857_b0",
+      "focus_bbox": [
+        0.044192,
+        0,
+        0.977206,
+        0.657583
+      ],
+      "box_index": 0,
+      "box_count": 1,
+      "context_boxes": [
+        {
+          "box_id": "764749857_b0",
+          "bbox": [
+            0.044192,
+            0,
+            0.977206,
+            0.657583
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "bad_geometry"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764729189_r1_coverage",
+      "review_type": "coverage",
+      "image_id": "764729189",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764729189/original.jpg",
+      "focus_box_id": "",
+      "focus_bbox": [],
+      "context_boxes": []
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "missing_yes"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764865038_candidate",
+      "review_type": "box",
+      "image_id": "764865038",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764865038/original.jpg",
+      "focus_box_id": "764865038_candidate",
+      "focus_bbox": [
+        0.64537,
+        0.55112,
+        0.67306,
+        0.58626
+      ],
+      "box_index": 1,
+      "box_count": 2,
+      "context_boxes": [
+        {
+          "box_id": "764865038_b0",
+          "bbox": [
+            0.319073,
+            0.251978,
+            0.61435,
+            0.63419
+          ],
+          "fixed": false
+        },
+        {
+          "box_id": "764865038_candidate",
+          "bbox": [
+            0.64537,
+            0.55112,
+            0.67306,
+            0.58626
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "extra_box"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764734137_b0",
+      "review_type": "box",
+      "image_id": "764734137",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734137/original.jpg",
+      "focus_box_id": "764734137_b0",
+      "focus_bbox": [
+        0.36459,
+        0.271329,
+        0.598369,
+        0.525691
+      ],
+      "box_index": 0,
+      "box_count": 1,
+      "context_boxes": [
+        {
+          "box_id": "764734137_b0",
+          "bbox": [
+            0.36459,
+            0.271329,
+            0.598369,
+            0.525691
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "box_correct"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764701425_r1_coverage",
+      "review_type": "coverage",
+      "image_id": "764701425",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764701425/original.jpg",
+      "focus_box_id": "",
+      "focus_bbox": [],
+      "context_boxes": [
+        {
+          "box_id": "764701425_b1",
+          "bbox": [
+            0.40367,
+            0.3195,
+            0.763284,
+            0.898129
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "missing_yes"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  },
+  {
+    "input_values": {
+      "review_item_id": "764718189_r1_coverage",
+      "review_type": "coverage",
+      "image_id": "764718189",
+      "revision": 1,
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718189/original.jpg",
+      "focus_box_id": "",
+      "focus_bbox": [],
+      "context_boxes": [
+        {
+          "box_id": "764718189_b0",
+          "bbox": [
+            0.324755,
+            0.258324,
+            0.679453,
+            0.75082
+          ],
+          "fixed": false
+        }
+      ]
+    },
+    "known_solutions": [
+      {
+        "output_values": {
+          "answer": "missing_no"
+        },
+        "correctness_weight": 1.0
+      }
+    ]
+  }
+]

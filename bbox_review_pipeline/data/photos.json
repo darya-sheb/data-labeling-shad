@@ -1,0 +1,3826 @@
+[
+  {
+    "image_id": "760590036",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760590036/original.jpg",
+    "boxes": [
+      [
+        0.1457195,
+        0.1824176,
+        0.7449909,
+        0.8087911999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760590046",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760590046/original.jpg",
+    "boxes": [
+      [
+        0.2680412,
+        0.2461538,
+        0.6786941,
+        0.8241758
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760591950",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760591950/original.jpg",
+    "boxes": [
+      [
+        0.1328671,
+        0.1274725,
+        0.7814685,
+        0.8571428
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760595076",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760595076/original.jpg",
+    "boxes": [
+      [
+        0.174538,
+        0.221978,
+        0.7063655,
+        0.7472527
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760598669",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760598669/original.jpg",
+    "boxes": [
+      [
+        0.291598,
+        0.1230769,
+        0.6161449999999999,
+        0.6857143
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760598830",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760598830/original.jpg",
+    "boxes": [
+      [
+        0.3920923,
+        0.2263736,
+        0.6243823,
+        0.4769231
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760605789",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760605789/original.jpg",
+    "boxes": [
+      [
+        0.1818182,
+        0.189011,
+        0.7096774,
+        0.5296703
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760607483",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760607483/original.jpg",
+    "boxes": [
+      [
+        0.3292894,
+        0.3604396,
+        0.5441941,
+        0.5736264
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760617662",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760617662/original.jpg",
+    "boxes": [
+      [
+        0.3255132,
+        0.5516484,
+        0.7478005999999999,
+        0.8351649000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760620476",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760620476/original.jpg",
+    "boxes": [
+      [
+        0.2435233,
+        0.1384615,
+        0.7979274,
+        0.989011
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760631172",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760631172/original.jpg",
+    "boxes": [
+      [
+        0.2580645,
+        0.5186813,
+        0.5718475,
+        0.7758242
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760640820",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760640820/original.jpg",
+    "boxes": [
+      [
+        0.299,
+        0.404,
+        0.473,
+        0.47900000000000004
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "760651018",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760651018/original.jpg",
+    "boxes": [
+      [
+        0.1088889,
+        0.0813187,
+        0.9111111,
+        0.8769231
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760651030",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760651030/original.jpg",
+    "boxes": [
+      [
+        0.08,
+        0.035,
+        0.8999999999999999,
+        1.0
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760654824",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760654824/original.jpg",
+    "boxes": [
+      [
+        0.2153846,
+        0.3142857,
+        0.8351648,
+        0.821978
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760665528",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760665528/original.jpg",
+    "boxes": [
+      [
+        0.4089404,
+        0.1582418,
+        0.6490066,
+        0.5296704
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760675347",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760675347/original.jpg",
+    "boxes": [
+      [
+        0.1614498,
+        0.4373626,
+        0.47281720000000005,
+        0.832967
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760675781",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760675781/original.jpg",
+    "boxes": [
+      [
+        0.3283828,
+        0.3032967,
+        0.6815180999999999,
+        0.6505494
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760682414",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760682414/original.jpg",
+    "boxes": [
+      [
+        0.1926752,
+        0.2428571,
+        0.4458599,
+        0.6166666000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760682431",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760682431/original.jpg",
+    "boxes": [
+      [
+        0.4012739,
+        0.3214286,
+        0.6719745,
+        0.6428572
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760692486",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760692486/original.jpg",
+    "boxes": [
+      [
+        0.2263736,
+        0.1802198,
+        0.7582416999999999,
+        0.8329671000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760704164",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760704164/original.jpg",
+    "boxes": [
+      [
+        0.305026,
+        0.3428571,
+        0.660312,
+        0.7098901
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760734357",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760734357/original.jpg",
+    "boxes": [
+      [
+        0.0495627,
+        0.189011,
+        0.8425655999999999,
+        0.8197802000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760735436",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760735436/original.jpg",
+    "boxes": [
+      [
+        0.2703297,
+        0.2307692,
+        0.7494506000000001,
+        0.7560439
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760736048",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760736048/original.jpg",
+    "boxes": [
+      [
+        0.2762887,
+        0.1802198,
+        0.7340207000000001,
+        0.7208791
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760736875",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760736875/original.jpg",
+    "boxes": [
+      [
+        0.1868132,
+        0.2263736,
+        0.8065934,
+        0.8241757999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760792279",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760792279/original.jpg",
+    "boxes": [
+      [
+        0.198,
+        0.155,
+        0.7829999999999999,
+        0.85
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "760792794",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760792794/original.jpg",
+    "boxes": [
+      [
+        0.0724876,
+        0.0879121,
+        0.6869851,
+        0.8527473000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760793780",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760793780/original.jpg",
+    "boxes": [
+      [
+        0.4102142,
+        0.5384615,
+        0.6787479999999999,
+        0.7670329
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760795504",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760795504/original.jpg",
+    "boxes": [
+      [
+        0.2702703,
+        0.2395604,
+        0.7027027,
+        0.6527472000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760795560",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760795560/original.jpg",
+    "boxes": [
+      [
+        0.2727273,
+        0.3010989,
+        0.657197,
+        0.7428570999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760795920",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760795920/original.jpg",
+    "boxes": [
+      [
+        0.377,
+        0.263,
+        0.677,
+        0.855
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760796846",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760796846/original.jpg",
+    "boxes": [
+      [
+        0.374,
+        0.283,
+        0.69,
+        0.643
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760796882",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760796882/original.jpg",
+    "boxes": [
+      [
+        0.4942339,
+        0.3692308,
+        0.583196,
+        0.48571430000000004
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "760796888",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760796888/original.jpg",
+    "boxes": [
+      [
+        0.306,
+        0.366,
+        0.661,
+        0.671
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760796949",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760796949/original.jpg",
+    "boxes": [
+      [
+        0.4365733,
+        0.5186813,
+        0.5864909,
+        0.7516483
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760798815",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760798815/original.jpg",
+    "boxes": [
+      [
+        0.3132911,
+        0.3230769,
+        0.6867088,
+        0.6351648
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760811646",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760811646/original.jpg",
+    "boxes": [
+      [
+        0.455,
+        0.393,
+        0.676,
+        0.485
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760828118",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760828118/original.jpg",
+    "boxes": [
+      [
+        0.2827225,
+        0.2659341,
+        0.6212914,
+        0.8131868
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760828138",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760828138/original.jpg",
+    "boxes": [
+      [
+        0.3936731,
+        0.3384615,
+        0.6449912,
+        0.6461538
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760828150",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760828150/original.jpg",
+    "boxes": [
+      [
+        0.395,
+        0.248,
+        0.7190000000000001,
+        0.65
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760828164",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760828164/original.jpg",
+    "boxes": [
+      [
+        0.3645833,
+        0.3098901,
+        0.6440972,
+        0.6615385
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760828171",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760828171/original.jpg",
+    "boxes": [
+      [
+        0.3599291,
+        0.3318681,
+        0.6914894,
+        0.6395603999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760831613",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760831613/original.jpg",
+    "boxes": [
+      [
+        0.3184,
+        0.2087912,
+        0.6864,
+        0.7296703
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760831616",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760831616/original.jpg",
+    "boxes": [
+      [
+        0.3222417,
+        0.2483516,
+        0.7040280000000001,
+        0.7560439
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760831619",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760831619/original.jpg",
+    "boxes": [
+      [
+        0.2984293,
+        0.1362637,
+        0.7068063,
+        0.7494505
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760833697",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760833697/original.jpg",
+    "boxes": [
+      [
+        0.412,
+        0.377,
+        0.617,
+        0.587
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760833749",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760833749/original.jpg",
+    "boxes": [
+      [
+        0.429,
+        0.418,
+        0.5469999999999999,
+        0.542
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760835745",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760835745/original.jpg",
+    "boxes": [
+      [
+        0.2609971,
+        0.4483516,
+        0.6627566,
+        0.7032967
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "760842309",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760842309/original.jpg",
+    "boxes": [
+      [
+        0.2304688,
+        0.178022,
+        0.8867188,
+        0.5956044
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760844853",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760844853/original.jpg",
+    "boxes": [
+      [
+        0.1317957,
+        0.1450549,
+        0.6968698,
+        0.8065934
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760844866",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760844866/original.jpg",
+    "boxes": [
+      [
+        0.3113674,
+        0.2285714,
+        0.7644152,
+        0.8725274
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760845284",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760845284/original.jpg",
+    "boxes": [
+      [
+        0.3871499,
+        0.2285714,
+        0.6243822,
+        0.5120879
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760845363",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760845363/original.jpg",
+    "boxes": [
+      [
+        0.24,
+        0.241,
+        0.612,
+        0.729
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760849218",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760849218/original.jpg",
+    "boxes": [
+      [
+        0.201,
+        0.173,
+        0.5900000000000001,
+        0.665
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760849266",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760849266/original.jpg",
+    "boxes": [
+      [
+        0.354,
+        0.359,
+        0.526,
+        0.56
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760853346",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760853346/original.jpg",
+    "boxes": [
+      [
+        0.5288303,
+        0.3296703,
+        0.6622735,
+        0.5824176000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760876668",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760876668/original.jpg",
+    "boxes": [
+      [
+        0.2747525,
+        0.1582418,
+        0.9257426,
+        0.6769231
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760887221",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760887221/original.jpg",
+    "boxes": [
+      [
+        0.1495601,
+        0.1648352,
+        0.8680352,
+        0.7252748
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760896866",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760896866/original.jpg",
+    "boxes": [
+      [
+        0.2727273,
+        0.3934066,
+        0.6774194,
+        0.7230769
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760910987",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760910987/original.jpg",
+    "boxes": [
+      [
+        0.4481054,
+        0.2659341,
+        0.675453,
+        0.6461539000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760937232",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760937232/original.jpg",
+    "boxes": [
+      [
+        0.222,
+        0.505,
+        0.883,
+        0.784
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "760938189",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760938189/original.jpg",
+    "boxes": [
+      [
+        0.3367521,
+        0.1318681,
+        0.7829059,
+        0.9296703
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760940688",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760940688/original.jpg",
+    "boxes": [
+      [
+        0.221,
+        0.36,
+        0.541,
+        0.577
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760964946",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760964946/original.jpg",
+    "boxes": [
+      [
+        0.308,
+        0.083,
+        0.887,
+        0.7979999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760965270",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760965270/original.jpg",
+    "boxes": [
+      [
+        0.2372323,
+        0.1186813,
+        0.7957166,
+        0.7626373
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760965375",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760965375/original.jpg",
+    "boxes": [
+      [
+        0.323,
+        0.107,
+        0.7949999999999999,
+        0.6869999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760968468",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760968468/original.jpg",
+    "boxes": [
+      [
+        0.2833608,
+        0.2923077,
+        0.6392092,
+        0.7912087999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760969294",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760969294/original.jpg",
+    "boxes": [
+      [
+        0.3278418,
+        0.2153846,
+        0.7199341,
+        0.7736264
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760971386",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760971386/original.jpg",
+    "boxes": [
+      [
+        0.221,
+        0.244,
+        0.714,
+        0.869
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760971804",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760971804/original.jpg",
+    "boxes": [
+      [
+        0.2388797,
+        0.0483516,
+        0.7594728000000001,
+        0.6263736000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760980351",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760980351/original.jpg",
+    "boxes": [
+      [
+        0.1416804,
+        0.2791209,
+        0.3031302,
+        0.49450550000000004
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "760982030",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760982030/original.jpg",
+    "boxes": [
+      [
+        0.3042763,
+        0.2483516,
+        0.7565789,
+        0.9252747
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760996704",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760996704/original.jpg",
+    "boxes": [
+      [
+        0.2586491,
+        0,
+        0.7034596,
+        0.6615385
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760998299",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760998299/original.jpg",
+    "boxes": [
+      [
+        0.2158155,
+        0.1186813,
+        0.6902801000000001,
+        0.6043956
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760998302",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760998302/original.jpg",
+    "boxes": [
+      [
+        0.2981878,
+        0.1692308,
+        0.6919275,
+        0.6857143
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760999749",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760999749/original.jpg",
+    "boxes": [
+      [
+        0.2659236,
+        0.0600462,
+        0.6592357,
+        0.6859123
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761000935",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761000935/original.jpg",
+    "boxes": [
+      [
+        0.291,
+        0.214,
+        0.705,
+        0.723
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761002494",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761002494/original.jpg",
+    "boxes": [
+      [
+        0.1270718,
+        0.1538462,
+        0.7974217000000001,
+        0.7362637999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761002924",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761002924/original.jpg",
+    "boxes": [
+      [
+        0.1237624,
+        0.1582418,
+        0.8234324,
+        0.7999999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761003491",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761003491/original.jpg",
+    "boxes": [
+      [
+        0.093,
+        0.097,
+        0.901,
+        0.875
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761004126",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761004126/original.jpg",
+    "boxes": [
+      [
+        0.315,
+        0.143,
+        0.777,
+        0.64
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761004210",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761004210/original.jpg",
+    "boxes": [
+      [
+        0.1536965,
+        0.1230769,
+        0.9085603,
+        0.8087912
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761004648",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761004648/original.jpg",
+    "boxes": [
+      [
+        0.1435811,
+        0.1208791,
+        0.5675676,
+        0.6923077
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761004869",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761004869/original.jpg",
+    "boxes": [
+      [
+        0.182,
+        0.309,
+        0.621,
+        0.634
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761004977",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761004977/original.jpg",
+    "boxes": [
+      [
+        0.1466083,
+        0.1978022,
+        0.8862144000000001,
+        0.6945055
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005095",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005095/original.jpg",
+    "boxes": [
+      [
+        0.2469636,
+        0.167033,
+        0.7105264,
+        0.6615385
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005321",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005321/original.jpg",
+    "boxes": [
+      [
+        0.1559829,
+        0.3802198,
+        0.47222220000000004,
+        0.7032967
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761005435",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005435/original.jpg",
+    "boxes": [
+      [
+        0.2890295,
+        0.3032967,
+        0.521097,
+        0.4835165
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005528",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005528/original.jpg",
+    "boxes": [
+      [
+        0.315,
+        0.255,
+        0.7949999999999999,
+        0.712
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005580",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005580/original.jpg",
+    "boxes": [
+      [
+        0.1497585,
+        0.1758242,
+        0.8566828,
+        0.8197802
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005593",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005593/original.jpg",
+    "boxes": [
+      [
+        0.2712146,
+        0.1252747,
+        0.670549,
+        0.6241758
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005674",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005674/original.jpg",
+    "boxes": [
+      [
+        0.232,
+        0.279,
+        0.545,
+        0.562
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761005734",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761005734/original.jpg",
+    "boxes": [
+      [
+        0.2548387,
+        0.3648352,
+        0.5693547999999999,
+        0.7340660000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761006969",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761006969/original.jpg",
+    "boxes": [
+      [
+        0.0605096,
+        0.2421525,
+        0.8917198,
+        0.6771301000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761007325",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761007325/original.jpg",
+    "boxes": [
+      [
+        0.0628019,
+        0.1802198,
+        0.7906601999999999,
+        0.9164835
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761008477",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761008477/original.jpg",
+    "boxes": [
+      [
+        0.1530864,
+        0.1120879,
+        0.7876543,
+        0.8263736
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761008993",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761008993/original.jpg",
+    "boxes": [
+      [
+        0.115,
+        0.061,
+        0.86,
+        0.8109999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761009261",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761009261/original.jpg",
+    "boxes": [
+      [
+        0.0395387,
+        0,
+        0.8764415,
+        0.7318681
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761010072",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761010072/original.jpg",
+    "boxes": [
+      [
+        0.2784185,
+        0.1582418,
+        0.6556837,
+        0.7318682
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761010311",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761010311/original.jpg",
+    "boxes": [
+      [
+        0.0489362,
+        0.1868132,
+        0.8510639,
+        0.8571429
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761011559",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761011559/original.jpg",
+    "boxes": [
+      [
+        0.1365639,
+        0.0549451,
+        0.8546256,
+        0.9164836
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761013096",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761013096/original.jpg",
+    "boxes": [
+      [
+        0.1612903,
+        0.1626374,
+        0.7760911,
+        0.9076922999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761014226",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761014226/original.jpg",
+    "boxes": [
+      [
+        0.1610738,
+        0.1912088,
+        0.7695749000000001,
+        0.8615385
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761015168",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761015168/original.jpg",
+    "boxes": [
+      [
+        0.0726496,
+        0.1450549,
+        0.8290599,
+        0.9120879
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761016447",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761016447/original.jpg",
+    "boxes": [
+      [
+        0.1169102,
+        0.2637363,
+        0.8789144,
+        0.7626374
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761016906",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761016906/original.jpg",
+    "boxes": [
+      [
+        0.173,
+        0.195,
+        0.887,
+        0.776
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761019147",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761019147/original.jpg",
+    "boxes": [
+      [
+        0.2130435,
+        0.2857143,
+        0.8130435,
+        0.745055
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761021296",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761021296/original.jpg",
+    "boxes": [
+      [
+        0.1996008,
+        0.2526042,
+        0.9341317,
+        0.9010417
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761026616",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761026616/original.jpg",
+    "boxes": [
+      [
+        0.309,
+        0.228,
+        0.714,
+        0.767
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761028483",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761028483/original.jpg",
+    "boxes": [
+      [
+        0.1109023,
+        0.1472527,
+        0.8082707,
+        0.7604395
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761028547",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761028547/original.jpg",
+    "boxes": [
+      [
+        0.181,
+        0.224,
+        0.77,
+        0.8029999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761028714",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761028714/original.jpg",
+    "boxes": [
+      [
+        0.165,
+        0.198,
+        0.8240000000000001,
+        0.5660000000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761029370",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761029370/original.jpg",
+    "boxes": [
+      [
+        0.1978261,
+        0.1978022,
+        0.8,
+        0.8109890000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761031630",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761031630/original.jpg",
+    "boxes": [
+      [
+        0.3313783,
+        0.4747253,
+        0.6832845000000001,
+        0.6747253
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761031639",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761031639/original.jpg",
+    "boxes": [
+      [
+        0.3841642,
+        0.3802198,
+        0.6715542,
+        0.5582418
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761032336",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761032336/original.jpg",
+    "boxes": [
+      [
+        0.251816,
+        0.2131868,
+        0.8401936999999999,
+        0.8527472
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761033047",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761033047/original.jpg",
+    "boxes": [
+      [
+        0.1508951,
+        0.2065934,
+        0.7468030000000001,
+        0.7846154000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761033465",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761033465/original.jpg",
+    "boxes": [
+      [
+        0.1380145,
+        0.1362637,
+        0.7966101,
+        0.7956044
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761035439",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761035439/original.jpg",
+    "boxes": [
+      [
+        0.0685841,
+        0.0967033,
+        0.7743363000000001,
+        0.8
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761035878",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761035878/original.jpg",
+    "boxes": [
+      [
+        0.2124711,
+        0.1846154,
+        0.7759815,
+        0.767033
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761036215",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036215/original.jpg",
+    "boxes": [
+      [
+        0.2154812,
+        0.1846154,
+        0.8221758,
+        0.9318681
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761036691",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036691/original.jpg",
+    "boxes": [
+      [
+        0.3822076,
+        0.3714286,
+        0.5831961,
+        0.6043956
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761036720",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036720/original.jpg",
+    "boxes": [
+      [
+        0.388,
+        0.362,
+        0.617,
+        0.6839999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761036721",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036721/original.jpg",
+    "boxes": [
+      [
+        0.3963816,
+        0.367033,
+        0.6151316,
+        0.589011
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761036757",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036757/original.jpg",
+    "boxes": [
+      [
+        0.4118616,
+        0.4307692,
+        0.5568369,
+        0.5736263
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761036956",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036956/original.jpg",
+    "boxes": [
+      [
+        0.3904448,
+        0.4021978,
+        0.5815486,
+        0.6373626
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761036975",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036975/original.jpg",
+    "boxes": [
+      [
+        0.4118616,
+        0.4175824,
+        0.5766062,
+        0.6461538
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761037191",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761037191/original.jpg",
+    "boxes": [
+      [
+        0.4233937,
+        0.4087912,
+        0.5897858,
+        0.6065934000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761038352",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761038352/original.jpg",
+    "boxes": [
+      [
+        0.1262327,
+        0.2087912,
+        0.729783,
+        0.7582416999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761039435",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761039435/original.jpg",
+    "boxes": [
+      [
+        0.1438849,
+        0.2087912,
+        0.9064748,
+        0.7934066
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761039739",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761039739/original.jpg",
+    "boxes": [
+      [
+        0.112782,
+        0.167033,
+        0.8214286,
+        0.7824175999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761044345",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761044345/original.jpg",
+    "boxes": [
+      [
+        0.274,
+        0.333,
+        0.935,
+        0.609
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761044392",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761044392/original.jpg",
+    "boxes": [
+      [
+        0.2883031,
+        0.367033,
+        0.8121910999999999,
+        0.8021978000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761044428",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761044428/original.jpg",
+    "boxes": [
+      [
+        0.0821114,
+        0.3846154,
+        0.8357771,
+        0.6637363000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761054383",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761054383/original.jpg",
+    "boxes": [
+      [
+        0.313,
+        0.449,
+        0.614,
+        0.669
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761058355",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761058355/original.jpg",
+    "boxes": [
+      [
+        0.24,
+        0.218,
+        0.799,
+        0.745
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761059245",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761059245/original.jpg",
+    "boxes": [
+      [
+        0.3460411,
+        0.3142857,
+        0.6979473,
+        0.5098901
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761065194",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761065194/original.jpg",
+    "boxes": [
+      [
+        0.1158645,
+        0.1340659,
+        0.9839572000000001,
+        0.9120879
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761065348",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761065348/original.jpg",
+    "boxes": [
+      [
+        0.13,
+        0.05,
+        0.859,
+        1.0
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761065402",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761065402/original.jpg",
+    "boxes": [
+      [
+        0.112,
+        0.16,
+        0.9369999999999999,
+        0.897
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761066736",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066736/original.jpg",
+    "boxes": [
+      [
+        0.4283361,
+        0.3098901,
+        0.7051071,
+        0.7274725
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761075844",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761075844/original.jpg",
+    "boxes": [
+      [
+        0.325,
+        0.353,
+        0.755,
+        0.6799999999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761075853",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761075853/original.jpg",
+    "boxes": [
+      [
+        0.233,
+        0.05,
+        0.863,
+        0.798
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761096243",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761096243/original.jpg",
+    "boxes": [
+      [
+        0.3105096,
+        0.4653938,
+        0.5700637,
+        0.8042959000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761107760",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761107760/original.jpg",
+    "boxes": [
+      [
+        0.294586,
+        0.3084337,
+        0.6305733,
+        0.8072288999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761107762",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761107762/original.jpg",
+    "boxes": [
+      [
+        0.2245223,
+        0.3549161,
+        0.6433120999999999,
+        0.8369305
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761134956",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761134956/original.jpg",
+    "boxes": [
+      [
+        0.078,
+        0.159,
+        0.761,
+        0.895
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761135011",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135011/original.jpg",
+    "boxes": [
+      [
+        0.189,
+        0.199,
+        0.623,
+        0.6990000000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761135063",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135063/original.jpg",
+    "boxes": [
+      [
+        0.24,
+        0.211,
+        0.715,
+        0.746
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761145791",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761145791/original.jpg",
+    "boxes": [
+      [
+        0.3753666,
+        0.4725275,
+        0.8445748,
+        0.7758242
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761148032",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761148032/original.jpg",
+    "boxes": [
+      [
+        0.0274725,
+        0.1692308,
+        0.7417582,
+        0.8769231000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761151593",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761151593/original.jpg",
+    "boxes": [
+      [
+        0.219,
+        0.123,
+        0.9289999999999999,
+        0.697
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761158481",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761158481/original.jpg",
+    "boxes": [
+      [
+        0.337,
+        0.283,
+        0.599,
+        0.528
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761158531",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761158531/original.jpg",
+    "boxes": [
+      [
+        0.425,
+        0.4,
+        0.5640000000000001,
+        0.542
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761167692",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761167692/original.jpg",
+    "boxes": [
+      [
+        0.4,
+        0.289,
+        0.651,
+        0.51
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761167732",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761167732/original.jpg",
+    "boxes": [
+      [
+        0.444,
+        0.358,
+        0.662,
+        0.496
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761167943",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761167943/original.jpg",
+    "boxes": [
+      [
+        0.551,
+        0.442,
+        0.7530000000000001,
+        0.635
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761167980",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761167980/original.jpg",
+    "boxes": [
+      [
+        0.537,
+        0.323,
+        0.714,
+        0.451
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761168845",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761168845/original.jpg",
+    "boxes": [
+      [
+        0,
+        0,
+        1,
+        0.6285714
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761169186",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761169186/original.jpg",
+    "boxes": [
+      [
+        0.2903226,
+        0.4461538,
+        0.797654,
+        0.6615384
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761169189",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761169189/original.jpg",
+    "boxes": [
+      [
+        0.2199413,
+        0.2175824,
+        0.718475,
+        0.4131868
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761169265",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761169265/original.jpg",
+    "boxes": [
+      [
+        0.3577713,
+        0.2153846,
+        0.7419355000000001,
+        0.4043956
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761170705",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761170705/original.jpg",
+    "boxes": [
+      [
+        0.2042834,
+        0.1802198,
+        0.5766063,
+        0.421978
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761181108",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761181108/original.jpg",
+    "boxes": [
+      [
+        0.028,
+        0.066,
+        0.887,
+        0.7130000000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761200954",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761200954/original.jpg",
+    "boxes": [
+      [
+        0.3772652,
+        0.2197802,
+        0.645799,
+        0.6373626
+      ]
+    ],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761200985",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761200985/original.jpg",
+    "boxes": [
+      [
+        0.4052718,
+        0.3274725,
+        0.7067545,
+        0.5956044
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761211825",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761211825/original.jpg",
+    "boxes": [
+      [
+        0.0967742,
+        0.2175824,
+        0.8973607,
+        0.7472527
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761211875",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761211875/original.jpg",
+    "boxes": [
+      [
+        0.0909091,
+        0.1626374,
+        0.6041056,
+        0.5714286
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761219682",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761219682/original.jpg",
+    "boxes": [
+      [
+        0.166,
+        0.254,
+        0.604,
+        0.735
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761227491",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761227491/original.jpg",
+    "boxes": [
+      [
+        0.607,
+        0.695,
+        0.712,
+        0.7669999999999999
+      ]
+    ],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761234404",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761234404/original.jpg",
+    "boxes": [
+      [
+        0.25,
+        0.221,
+        0.641,
+        0.902
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761234405",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761234405/original.jpg",
+    "boxes": [
+      [
+        0.258,
+        0.207,
+        0.646,
+        0.848
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761234408",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761234408/original.jpg",
+    "boxes": [
+      [
+        0.1845343,
+        0.2351648,
+        0.6731107000000001,
+        0.7252746999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761244971",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761244971/original.jpg",
+    "boxes": [
+      [
+        0.3093146,
+        0.389011,
+        0.7434095000000001,
+        0.7626374
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761262440",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262440/original.jpg",
+    "boxes": [
+      [
+        0.0146789,
+        0.1384615,
+        0.987156,
+        0.8
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761262449",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262449/original.jpg",
+    "boxes": [
+      [
+        0.1553191,
+        0,
+        0.6744680000000001,
+        1
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761262473",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262473/original.jpg",
+    "boxes": [
+      [
+        0.032967,
+        0.0879121,
+        0.9780219,
+        0.9208791000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761262476",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262476/original.jpg",
+    "boxes": [
+      [
+        0.1384615,
+        0.0241758,
+        0.7868131,
+        0.9956044
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761262477",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262477/original.jpg",
+    "boxes": [
+      [
+        0.010989,
+        0.1692308,
+        0.989011,
+        0.8439561
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761262479",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262479/original.jpg",
+    "boxes": [
+      [
+        0.021978,
+        0.2263736,
+        0.9670329000000001,
+        0.8835165
+      ]
+    ],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761272141",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761272141/original.jpg",
+    "boxes": [
+      [
+        0.1564148,
+        0.1736264,
+        0.8347979,
+        0.7978021999999999
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760120082",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760120082/original.jpg",
+    "boxes": [
+      [
+        0.154,
+        0.179,
+        0.6,
+        0.483
+      ],
+      [
+        0.152,
+        0.463,
+        0.39,
+        0.7010000000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760120169",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760120169/original.jpg",
+    "boxes": [
+      [
+        0.108,
+        0.213,
+        0.534,
+        0.501
+      ],
+      [
+        0.106,
+        0.498,
+        0.38899999999999996,
+        0.722
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760828115",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760828115/original.jpg",
+    "boxes": [
+      [
+        0.073,
+        0.255,
+        0.266,
+        0.49
+      ],
+      [
+        0.176,
+        0.355,
+        0.31699999999999995,
+        0.639
+      ],
+      [
+        0.2,
+        0.488,
+        0.403,
+        0.78
+      ],
+      [
+        0.41,
+        0.354,
+        0.665,
+        0.665
+      ],
+      [
+        0.402,
+        0.62,
+        0.585,
+        0.864
+      ],
+      [
+        0.094,
+        0.778,
+        0.267,
+        0.9570000000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761031648",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761031648/original.jpg",
+    "boxes": [
+      [
+        0.553,
+        0.439,
+        0.6070000000000001,
+        0.498
+      ],
+      [
+        0.641,
+        0.424,
+        0.7,
+        0.508
+      ],
+      [
+        0.409,
+        0.626,
+        0.475,
+        0.676
+      ],
+      [
+        0.466,
+        0.607,
+        0.532,
+        0.712
+      ],
+      [
+        0.455,
+        0.65,
+        0.522,
+        0.72
+      ],
+      [
+        0.491,
+        0.657,
+        0.566,
+        0.7090000000000001
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761031680",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761031680/original.jpg",
+    "boxes": [
+      [
+        0.139285,
+        0.3619055,
+        0.404285,
+        0.5561912
+      ],
+      [
+        0.389285,
+        0.2457143,
+        0.589,
+        0.592
+      ],
+      [
+        0.329285,
+        0.3590484,
+        0.5828567,
+        0.6952374
+      ],
+      [
+        0.270715,
+        0.5809516,
+        0.5469999999999999,
+        0.7476197
+      ],
+      [
+        0.489,
+        0.4038088,
+        0.7478567,
+        0.6847626
+      ],
+      [
+        0.7464283,
+        0,
+        0.905,
+        0.1876198
+      ]
+    ],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761135033",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135033/original.jpg",
+    "boxes": [
+      [
+        0.178,
+        0.738,
+        0.27999999999999997,
+        0.867
+      ],
+      [
+        0.615,
+        0.25,
+        0.758,
+        0.473
+      ]
+    ],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "625495767",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625495767/original.jpg",
+    "boxes": [],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "760875513",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760875513/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "760879546",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760879546/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760879549",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760879549/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760928380",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760928380/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "760959515",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760959515/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "760971561",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760971561/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760975674",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760975674/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761003079",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761003079/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761003340",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761003340/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761015426",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761015426/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761015459",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761015459/original.jpg",
+    "boxes": [],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761015673",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761015673/original.jpg",
+    "boxes": [],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761015725",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761015725/original.jpg",
+    "boxes": [],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761015743",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761015743/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761025447",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761025447/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761036996",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761036996/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761038837",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761038837/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761038872",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761038872/original.jpg",
+    "boxes": [],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761066727",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066727/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761066762",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066762/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761066784",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066784/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761066803",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066803/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761066819",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066819/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761066831",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761066831/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761074067",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761074067/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761074070",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761074070/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761074102",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761074102/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761081270",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761081270/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761096223",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761096223/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761105922",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761105922/original.jpg",
+    "boxes": [],
+    "filter_yes": 3
+  },
+  {
+    "image_id": "761105956",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761105956/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761107792",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761107792/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761107806",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761107806/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761135787",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135787/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761135901",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135901/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761135927",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135927/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761135973",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761135973/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761136050",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761136050/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761136106",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761136106/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761136135",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761136135/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761158189",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761158189/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761158649",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761158649/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761161921",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761161921/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761164349",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761164349/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761166949",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761166949/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761168185",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761168185/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761170112",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761170112/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761179588",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761179588/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761179832",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761179832/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761180646",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761180646/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761188336",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761188336/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761188408",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761188408/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761188424",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761188424/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761188435",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761188435/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761195981",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761195981/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761218439",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761218439/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761234577",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761234577/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761236926",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761236926/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761240319",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761240319/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761240326",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761240326/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761241260",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761241260/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761243004",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761243004/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761243006",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761243006/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761243008",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761243008/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761250815",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761250815/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761255505",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761255505/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761255877",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761255877/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761255905",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761255905/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761258150",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761258150/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761260140",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761260140/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761260484",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761260484/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761260737",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761260737/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761260790",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761260790/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761261007",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761261007/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761262073",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262073/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761262190",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262190/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761262279",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262279/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761262384",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262384/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761262630",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761262630/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761265121",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761265121/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761266002",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761266002/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761268412",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761268412/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761275893",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761275893/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761275919",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761275919/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761276652",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761276652/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761277235",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761277235/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761277332",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761277332/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761284235",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761284235/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761284757",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761284757/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761286628",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761286628/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761287945",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761287945/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761290103",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761290103/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761290224",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761290224/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761290225",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761290225/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761297133",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761297133/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761297246",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761297246/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761300613",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761300613/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761300664",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761300664/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761303216",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761303216/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761304859",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761304859/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761304881",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761304881/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761304885",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761304885/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761305284",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761305284/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761307593",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761307593/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761309126",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761309126/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761310519",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761310519/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761312141",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761312141/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761312444",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761312444/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761312480",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761312480/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "669699330",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669699330/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "670675019",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/670675019/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "671660615",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/671660615/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "672645582",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672645582/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "672846485",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672846485/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "688229025",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688229025/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "688229067",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688229067/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "704995361",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/704995361/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "704995431",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/704995431/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "707752642",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/707752642/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "723584415",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723584415/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "723584999",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723584999/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "728331817",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728331817/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "737797263",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737797263/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "748395490",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/748395490/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "754111167",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/754111167/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "754971247",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/754971247/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "756684548",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/756684548/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "756990303",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/756990303/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "758079429",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758079429/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "758192379",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758192379/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "758805840",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758805840/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "758806263",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758806263/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "758882049",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758882049/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "758915384",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758915384/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "758915440",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/758915440/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "759211174",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759211174/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "759426899",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759426899/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "759426936",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759426936/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "759574339",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759574339/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "759745967",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759745967/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "759810246",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759810246/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "760021965",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760021965/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "760033757",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760033757/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760153963",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760153963/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760163257",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760163257/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760772065",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760772065/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761155806",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761155806/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761156237",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761156237/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761169542",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761169542/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761185900",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761185900/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761259343",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761259343/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761259369",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761259369/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761259468",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761259468/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761294468",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761294468/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761294491",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761294491/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761303926",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761303926/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761303964",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761303964/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761305160",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761305160/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761306971",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761306971/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761335515",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761335515/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "760278811",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760278811/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "760278815",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/760278815/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761631067",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761631067/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761638133",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761638133/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761640202",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761640202/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761640236",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761640236/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761640268",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761640268/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761640324",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761640324/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761642889",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761642889/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761642963",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761642963/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761653992",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761653992/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761655691",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761655691/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761655781",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761655781/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761656531",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761656531/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761656998",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761656998/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761657029",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761657029/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761657343",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761657343/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761657617",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761657617/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761658713",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761658713/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761658804",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761658804/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761658813",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761658813/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761658973",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761658973/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761659297",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761659297/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761659320",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761659320/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761659804",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761659804/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761660124",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761660124/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761660160",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761660160/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761660923",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761660923/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761660961",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761660961/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761660990",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761660990/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761661028",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761661028/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761661105",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761661105/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761661298",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761661298/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761661531",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761661531/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761661565",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761661565/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761661682",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761661682/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761669850",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669850/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761669852",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669852/original.jpg",
+    "boxes": [],
+    "filter_yes": 2
+  },
+  {
+    "image_id": "761669867",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669867/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761669868",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669868/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761669870",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669870/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761669884",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669884/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761669923",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669923/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761669952",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669952/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761669971",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669971/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761669990",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761669990/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761670010",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761670010/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761690120",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761690120/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761690401",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761690401/original.jpg",
+    "boxes": [],
+    "filter_yes": 1
+  },
+  {
+    "image_id": "761690463",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761690463/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  },
+  {
+    "image_id": "761690478",
+    "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/761690478/original.jpg",
+    "boxes": [],
+    "filter_yes": 0
+  }
+]

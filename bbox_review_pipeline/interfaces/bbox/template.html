@@ -1,0 +1,33 @@
+<section class="bf-bbox">
+  <header><h2>Разметка бабочек</h2><span class="bf-tag">{{#if practice}}ОБУЧЕНИЕ · ИСПРАВЛЕНИЕ РАМОК{{else}}ОДНА БАБОЧКА — ОДНА РАМКА{{/if}}</span><details class="bf-instructions"><summary>Как размечать</summary>
+    <p><button class="bf-film-open" type="button" aria-haspopup="dialog">▶ Смотреть видео · 30 с</button></p>
+    <p><b>Осмотрите всё фото.</b> У каждой бабочки должна быть своя рамка, даже если крылья перекрываются. Бабочка в красном пунктире уже размечена. Оставьте красную рамку как есть. Если вы обвели ту же бабочку оранжевым, удалите оранжевую копию.</p>
+    <p><b>Проверьте края.</b> Включите видимые крылья, тело, усики и лапки. Выберите оранжевую рамку кликом возле границы и потяните за сторону или угол.</p>
+    <p><kbd>B</kbd> — новая рамка, <kbd>Del</kbd> — удалить выбранную, <kbd>Esc</kbd> — снять выделение. Приблизьте фото клавишей <kbd>+</kbd>, перемещайте правой кнопкой. <kbd>0</kbd> вернёт фото целиком.</p>
+    {{#if correction_feedback}}<p>После исправления нажмите <kbd>Enter</kbd>, чтобы подтвердить рамку и выбрать следующую. После последней осмотрите фото целиком.</p>{{/if}}
+    <p><kbd>R</kbd> — подтвердить просмотр, <kbd>Enter</kbd> — отправить рабочее задание.</p>
+  </details><button class="bf-film-open" type="button" aria-haspopup="dialog">▶ Видео · 30 с</button><button type="button" class="bf-fullscreen" title="Включить или выключить полный экран" hidden>Полный экран</button></header>
+  <dialog class="bf-film" aria-label="Видеоинструкция по разметке"><div class="bf-film-bar"><b>Как размечать бабочек</b><button type="button" class="bf-film-close" autofocus>Закрыть</button></div><video controls playsinline preload="none" aria-label="Демонстрация разметки с подписями на русском"></video><p class="bf-film-error" hidden>Не удалось воспроизвести видео. Откройте памятку «Как размечать» рядом с кнопкой видео.</p></dialog>
+  {{#if fixed_boxes}}<div class="bf-fixed-note"><strong>Красный пунктир — бабочка уже размечена</strong> <span>Вторая рамка ей не нужна. Обведите бабочек без своей рамки, даже если они перекрываются с уже размеченной.</span></div>{{/if}}
+  <div class="bf-workbench">
+    <aside class="bf-tools">
+      <button type="button" class="bf-add" title="Два клика по углам или протяните мышью; B / N — выбрать инструмент">▱ Выделить область <kbd>B</kbd></button>
+      <button type="button" class="bf-pan" title="Перемещать фото: правая кнопка, пробел + левая кнопка, колесо или V">✋ Переместить фото <kbd>V</kbd></button>
+      <button type="button" class="bf-delete" title="Удалить выбранную рамку — Delete, Backspace или D" disabled>Удалить рамку <kbd>Del</kbd></button>
+      <button type="button" class="bf-cancel" title="Закончить редактирование — Enter; снять выделение или отменить рисование — Esc">Снять выделение <kbd>Esc</kbd></button>
+      <div class="bf-zoom-toolbar"><button type="button" data-zoom="out" aria-label="Уменьшить">−</button><span class="bf-zoom-label">100%</span><button type="button" data-zoom="in" aria-label="Увеличить">+</button><button type="button" data-zoom="fit">Вписать <kbd>0</kbd></button></div>
+      <p class="bf-zoom-hint" hidden>Мелкие детали лучше видны вблизи. Нажмите <kbd>+</kbd> и проверьте кончики усиков, лапок и крыльев.</p>
+      <div class="bf-box-count"></div>{{#unless correction_feedback}}<div class="bf-box-list" aria-label="Рамки на фотографии"></div>{{/unless}}
+      <div class="bf-status" aria-live="polite"></div>
+    </aside>
+    <div class="bf-canvas-column"><div class="bf-photo-loading" role="status"><span>Загружаем фото…</span> <button type="button" hidden>Попробовать снова</button></div><div class="bf-editor">{{field type="image-annotation" name="result" src="" annotations=editable_annotations}}</div></div>
+    <aside class="bf-guide bf-side-controls">
+      {{#if correction_feedback}}<section class="bf-correction" aria-label="Проверка исправлений"><div aria-live="polite"><strong></strong><b class="bf-frame-reason" hidden></b><p></p><small></small></div><button type="button" class="bf-find-frame" aria-keyshortcuts="Enter" hidden><span>Выбрать рамку</span> <kbd>Enter</kbd></button></section>{{/if}}
+      {{#if practice}}<section class="bf-practice"><strong class="bf-practice-threshold"></strong><button type="button" class="bf-check">Сравнить с ориентиром</button><span class="bf-feedback" aria-live="polite">{{#if editable_annotations}}Исправьте готовую рамку: включите все видимые части бабочки и уберите лишний фон.{{else}}{{#if fixed_boxes}}Найдите бабочку без красной рамки и обведите её оранжевой.{{else}}Обведите все видимые части бабочки.{{/if}}{{/if}}</span><span class="bf-reference" hidden>Синий — ориентир, оранжевый — ваша рамка</span><small>После просмотра фото: Enter — сравнить; ещё раз Enter после успешного сравнения — отправить.</small></section>{{/if}}
+      <label class="bf-empty" {{#if practice}}hidden{{/if}}><input type="checkbox" class="bf-empty-check"><span>Добавлять рамки не нужно: все бабочки уже в фиксированных рамках или бабочек на фото нет</span></label>
+      <div class="bf-review-confirmation"><label class="bf-confirm"><input type="checkbox" class="bf-reviewed"><span>Я просмотрел(а) всё фото, проверил(а) границы и пропуски <kbd>R</kbd></span></label><span class="bf-review-prompt" role="alert" hidden>Подтвердите здесь ↑</span></div>
+      <p class="bf-error" role="alert" hidden></p>
+      {{#unless correction_feedback}}<p class="bf-task-help">Кликните у края рамки, чтобы поправить её. Чтобы выделить пропущенных бабочек, нажмите <kbd>B</kbd> и обведите каждую отдельно.</p>{{/unless}}
+    </aside>
+  </div>
+</section>

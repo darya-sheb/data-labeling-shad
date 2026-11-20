@@ -1,0 +1,53 @@
+{
+  "validation_overlap": 2,
+  "annotation_exam_review_priority": 10,
+  "validation_control_overlap": 3,
+  "max_review_overlap": 3,
+  "work_pool_close_delay_seconds": 86400,
+  "annotation_threshold": 80,
+  "validation_threshold": 80,
+  "validation_control_window": 20,
+  "validation_pause_below": 70,
+  "validation_discard_below": 60,
+  "validation_default_min_errors": 5,
+  "validation_default_streak_photos": 3,
+  "validation_cooldown_hours": [
+    2,
+    4,
+    8,
+    16,
+    24
+  ],
+  "exam_review_days": 7,
+  "exam_fast_report_seconds": 60,
+  "practice_iou_threshold": 0.8,
+  "qualification_images": 10,
+  "validation_exam_questions": 10,
+  "rewards_rub": {
+    "bbox_qualification": 5,
+    "bbox_production": 1,
+    "validation_exam": 3,
+    "validation_annotation_exam": 0.5,
+    "validation_production": 0.5
+  },
+  "exam_participants": {
+    "bbox_qualification": 7,
+    "validation_exam": 10
+  },
+  "work_quality": {
+    "window": 10,
+    "minimum_photos": 5,
+    "ban_below": 60,
+    "ban_hours": [
+      2,
+      24
+    ]
+  },
+  "validation_control_interval": [
+    8,
+    12
+  ],
+  "max_reannotations_per_image": 2,
+  "exam_control_page_limit": 1,
+  "pool_lifetime_days": 90
+}
