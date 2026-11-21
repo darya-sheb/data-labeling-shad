@@ -1,0 +1,23 @@
+{
+  "config": {
+    "name": "owlv2",
+    "backend": "owl",
+    "model_id": "google/owlv2-base-patch16-ensemble",
+    "prompt": [
+      "a butterfly",
+      "a moth"
+    ],
+    "revision": "cfd3195ba4ea9592eec887ded089f4c08eff231d",
+    "candidate_threshold": 0.1,
+    "threshold": 0.1,
+    "text_threshold": 0.25,
+    "max_new_tokens": 512,
+    "image_max_side": 1024,
+    "load_in_4bit": false
+  },
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "manifest_hash": "ff95168fc41cc3fb8219d65ca9720d447cccd4cc0ca657fe88906a82b0fbee4b"
+}

@@ -164,8 +164,8 @@ def run_model(config, manifest, raw_path, device):
 
             results[photo_id] = record
             write_jsonl(raw_path, results.values())
-            if index == 1 or index % 25 == 0 or index == len(pending):
-                print(f"{config.name}: {index}/{len(pending)}", flush=True)
+            # if index == 1 or index % 10 == 0 or index == len(pending):
+            print(f"{config.name}: {index}/{len(pending)}", flush=True)
     finally:
         del detector
         gc.collect()

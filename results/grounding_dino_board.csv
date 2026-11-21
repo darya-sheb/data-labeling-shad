@@ -1,0 +1,2 @@
+run,threshold,n_photos,technical_errors,tp_50,fp_50,fn_50,precision_50,recall_50,f1_50,tp_75,fp_75,fn_75,precision_75,recall_75,f1_75,n_negative_photos,negative_photos_with_fp,fp_on_negative_photos,inference_seconds,ms_per_photo
+grounding_dino,0.3,400,0,204,655,14,0.23748544819557627,0.9357798165137615,0.3788300835654596,189,670,29,0.220023282887078,0.8669724770642202,0.35097493036211697,203,182,341,199.2970605269977,498.24265131749434
