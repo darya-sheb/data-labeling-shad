@@ -1,0 +1,909 @@
+[
+  {
+    "photo_id": 764933915,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764933915/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.518,
+        "top": 0.452,
+        "width": 0.202,
+        "height": 0.207
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764933947,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764933947/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.542,
+        "top": 0.456,
+        "width": 0.179,
+        "height": 0.226
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764928063,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764928063/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.073,
+        "top": 0.259,
+        "width": 0.818,
+        "height": 0.425
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764916073,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764916073/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.064,
+        "top": 0.219,
+        "width": 0.842,
+        "height": 0.535
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764897371,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764897371/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.416,
+        "top": 0.372,
+        "width": 0.148,
+        "height": 0.237
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764897367,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764897367/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.428,
+        "top": 0.374,
+        "width": 0.139,
+        "height": 0.224
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764897335,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764897335/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.395,
+        "top": 0.4,
+        "width": 0.189,
+        "height": 0.224
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764906274,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764906274/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.285,
+        "top": 0.309,
+        "width": 0.327,
+        "height": 0.403
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764906292,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764906292/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.485,
+        "top": 0.352,
+        "width": 0.082,
+        "height": 0.158
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764906331,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764906331/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.551,
+        "top": 0.417,
+        "width": 0.062,
+        "height": 0.106
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764901584,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764901584/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.034,
+        "top": 0.077,
+        "width": 0.844,
+        "height": 0.855
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764901605,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764901605/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.19,
+        "top": 0.196,
+        "width": 0.495,
+        "height": 0.694
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764865038,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764865038/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.322,
+        "top": 0.254,
+        "width": 0.288,
+        "height": 0.379
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764864914,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764864914/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.4,
+        "top": 0.359,
+        "width": 0.154,
+        "height": 0.234
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764864831,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764864831/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.125,
+        "top": 0.475,
+        "width": 0.225,
+        "height": 0.322
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764864846,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764864846/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.332,
+        "top": 0.384,
+        "width": 0.284,
+        "height": 0.261
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764855379,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764855379/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.295,
+        "top": 0.326,
+        "width": 0.405,
+        "height": 0.276
+      },
+      {
+        "left": 0.219,
+        "top": 0.503,
+        "width": 0.522,
+        "height": 0.239
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764836746,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764836746/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.057,
+        "top": 0.123,
+        "width": 0.861,
+        "height": 0.79
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764834841,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764834841/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.128,
+        "top": 0.278,
+        "width": 0.622,
+        "height": 0.383
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764834793,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764834793/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.026,
+        "top": 0.389,
+        "width": 0.804,
+        "height": 0.321
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764833402,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764833402/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.107,
+        "top": 0.283,
+        "width": 0.687,
+        "height": 0.398
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764833353,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764833353/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.168,
+        "top": 0.291,
+        "width": 0.561,
+        "height": 0.346
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764833195,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764833195/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.068,
+        "top": 0.334,
+        "width": 0.663,
+        "height": 0.317
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764795960,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764795960/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.231,
+        "top": 0.093,
+        "width": 0.548,
+        "height": 0.5
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764795976,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764795976/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.342,
+        "top": 0.24,
+        "width": 0.345,
+        "height": 0.34
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764796012,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764796012/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.45,
+        "top": 0.202,
+        "width": 0.152,
+        "height": 0.143
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764756889,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764756889/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.392,
+        "top": 0.329,
+        "width": 0.286,
+        "height": 0.331
+      },
+      {
+        "left": 0.898,
+        "top": 0.714,
+        "width": 0.102,
+        "height": 0.239
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764740585,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764740585/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.398,
+        "top": 0.074,
+        "width": 0.271,
+        "height": 0.664
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764751219,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764751219/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.171,
+        "top": 0.16,
+        "width": 0.619,
+        "height": 0.711
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764746508,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764746508/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.275,
+        "top": 0.108,
+        "width": 0.477,
+        "height": 0.773
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764745663,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764745663/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.265,
+        "top": 0.083,
+        "width": 0.502,
+        "height": 0.85
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764738076,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764738076/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.175,
+        "top": 0.109,
+        "width": 0.63,
+        "height": 0.802
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764738601,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764738601/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.25,
+        "top": 0.195,
+        "width": 0.496,
+        "height": 0.496
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764738618,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764738618/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.067,
+        "top": 0.067,
+        "width": 0.871,
+        "height": 0.88
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764701425,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764701425/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.178,
+        "top": 0.126,
+        "width": 0.479,
+        "height": 0.445
+      },
+      {
+        "left": 0.397,
+        "top": 0.326,
+        "width": 0.366,
+        "height": 0.573
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764749857,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764749857/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.057,
+        "top": 0,
+        "width": 0.882,
+        "height": 0.54
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764749724,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764749724/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.309,
+        "top": 0.308,
+        "width": 0.459,
+        "height": 0.544
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734529,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734529/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.315,
+        "top": 0.351,
+        "width": 0.296,
+        "height": 0.355
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734548,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734548/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.35,
+        "top": 0.402,
+        "width": 0.27,
+        "height": 0.368
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734520,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734520/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.493,
+        "top": 0.372,
+        "width": 0.138,
+        "height": 0.204
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734449,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734449/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.443,
+        "top": 0.379,
+        "width": 0.13,
+        "height": 0.155
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734248,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734248/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.332,
+        "top": 0.334,
+        "width": 0.345,
+        "height": 0.283
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734220,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734220/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.4,
+        "top": 0.381,
+        "width": 0.223,
+        "height": 0.207
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734137,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734137/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.354,
+        "top": 0.319,
+        "width": 0.235,
+        "height": 0.209
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734153,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734153/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.377,
+        "top": 0.393,
+        "width": 0.259,
+        "height": 0.236
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734134,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734134/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.417,
+        "top": 0.277,
+        "width": 0.186,
+        "height": 0.311
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764734121,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764734121/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.366,
+        "top": 0.393,
+        "width": 0.26,
+        "height": 0.251
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764741905,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764741905/original.jpg",
+    "Has_butterflies": false,
+    "boxes": [],
+    "error": null
+  },
+  {
+    "photo_id": 764735712,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764735712/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.043,
+        "top": 0.19,
+        "width": 0.867,
+        "height": 0.579
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764735729,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764735729/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.085,
+        "top": 0.131,
+        "width": 0.834,
+        "height": 0.705
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764735743,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764735743/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.043,
+        "top": 0.156,
+        "width": 0.768,
+        "height": 0.617
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764727755,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764727755/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.431,
+        "top": 0.32,
+        "width": 0.267,
+        "height": 0.316
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764732151,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764732151/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.394,
+        "top": 0.338,
+        "width": 0.2,
+        "height": 0.265
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764727705,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764727705/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.411,
+        "top": 0.357,
+        "width": 0.221,
+        "height": 0.298
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764729189,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764729189/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.376,
+        "top": 0.367,
+        "width": 0.256,
+        "height": 0.299
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764725907,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764725907/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.447,
+        "top": 0.347,
+        "width": 0.278,
+        "height": 0.235
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718479,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718479/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.399,
+        "top": 0.351,
+        "width": 0.208,
+        "height": 0.319
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718489,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718489/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.353,
+        "top": 0.326,
+        "width": 0.309,
+        "height": 0.402
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718494,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718494/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.333,
+        "top": 0.295,
+        "width": 0.27,
+        "height": 0.355
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718337,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718337/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.342,
+        "top": 0.38,
+        "width": 0.284,
+        "height": 0.267
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718287,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718287/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.442,
+        "top": 0.449,
+        "width": 0.166,
+        "height": 0.115
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718189,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718189/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.323,
+        "top": 0.263,
+        "width": 0.345,
+        "height": 0.493
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718013,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718013/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.347,
+        "top": 0.331,
+        "width": 0.293,
+        "height": 0.312
+      }
+    ],
+    "error": null
+  },
+  {
+    "photo_id": 764718015,
+    "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/764718015/original.jpg",
+    "Has_butterflies": true,
+    "boxes": [
+      {
+        "left": 0.362,
+        "top": 0.343,
+        "width": 0.305,
+        "height": 0.34
+      }
+    ],
+    "error": null
+  }
+]
