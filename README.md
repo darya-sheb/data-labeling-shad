@@ -13,7 +13,7 @@ python -m jupyterlab
 
 1. [Сравнение бейзлайнов](model_comparison/notebooks/baseline/models_comparison.ipynb) читает сохранённые предсказания, сверяет их с сырыми выходами и показывает метрики каждой модели на всём наборе и по группам.
 2. [Эксперименты](model_comparison/notebooks/experiments/experiments.ipynb) повторяют удаление дублей у Grounding DINO, сравнивают два промпта Qwen и собирают итоговый лидерборд. Сгенерированные таблицы пишутся в `runs/tables/`.
-3. [Контест](model_comparison/notebooks/production/production_labeling.py.ipynb) проверяет формат и контрольную сумму исходной посылки, затем восстанавливает точную копию.
+3. [Контест](#посылка) — команды для проверки и восстановления исходного JSONL. Код запуска находится в [run_production.py](model_comparison/run_production.py).
 
 [Бейзлайны и время](model_comparison/results/tables/leaderboard_baseline.csv) · [Сравнение экспериментов](model_comparison/results/tables/experiments_comparison.csv) · [Лидерборд](model_comparison/results/tables/leaderboard.csv) · [Метрики по группам](model_comparison/results/tables/leaderboard_by_group.csv)
 
