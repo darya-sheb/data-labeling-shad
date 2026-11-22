@@ -1,25 +1,66 @@
 # Детекция бабочек
 
-Сравниваем Grounding DINO, OWLv2 и Qwen на 400 фотографиях с эталонными рамками. Основная метрика — F1@IoU 0.50. На валидации лучший результат показал Qwen с уточнённым промптом: **0.8742**.
+Сравниваем Grounding DINO Tiny, OWLv2 Base и Qwen3‑VL‑2B‑Instruct на 400 фотографиях. Основная метрика — объектный F1 при IoU ≥ 0.50. На командной валидации лучший результат у Qwen с уточнённым промптом, **0.8742**. Для проекта разметки см. [отчёт о bbox и review](bbox_review_pipeline/REPORT.md).
 
-## Установка
+## Пересчёт результатов на CPU
 
-Из корня репозитория в Linux или WSL, с Python 3.12:
+Из корня репозитория в окружении Python 3.12:
 
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install numpy scipy pillow pandas jupyterlab
 python -m jupyterlab
 ```
 
-Для пересчёта метрик по сохранённым предсказаниям достаточно CPU. Для повторного инференса Qwen используйте Kaggle с GPU и доступом в интернет.
+1. [Сравнение бейзлайнов](model_comparison/notebooks/baseline/models_comparison.ipynb) читает сохранённые предсказания, сверяет их с сырыми выходами и показывает метрики каждой модели на всём наборе и по группам.
+2. [Эксперименты](model_comparison/notebooks/experiments/experiments.ipynb) повторяют удаление дублей у Grounding DINO, сравнивают два промпта Qwen и собирают итоговый лидерборд. Сгенерированные таблицы пишутся в `runs/tables/`.
+3. [Контест](model_comparison/notebooks/production/production_labeling.py.ipynb) проверяет формат и контрольную сумму исходной посылки, затем восстанавливает точную копию.
 
-## Воспроизведение
+[Бейзлайны и время](model_comparison/results/tables/leaderboard_baseline.csv) · [Сравнение экспериментов](model_comparison/results/tables/experiments_comparison.csv) · [Лидерборд](model_comparison/results/tables/leaderboard.csv) · [Метрики по группам](model_comparison/results/tables/leaderboard_by_group.csv)
 
-1. [models_comparison.ipynb](notebooks/models_comparison.ipynb) — сравнение бейзлайнов. Фото и эталон лежат в [data/](data/), готовые предсказания — в [results/predictions/](results/predictions/).
-2. [doubles_experiments.ipynb](notebooks/experiments/doubles_experiments.ipynb) — удаление дублей у Grounding DINO и OWLv2, пересчёт метрик и итоговый лидерборд. Для повторного запуска [qwen_experiment.ipynb](notebooks/experiments/qwen_experiment.ipynb) сначала соберите входной JSON в [prepare_butterfly_validation.ipynb](notebooks/experiments/prepare_butterfly_validation.ipynb).
-3. [best_model_production.ipynb](notebooks/production/best_model_production.ipynb) — запуск выбранной модели на экзаменационных фото в Kaggle. Подключите датасет с `production_dataset.jsonl` и настройками эксперимента [qwen.experiment.json](results/experiments/qwen.experiment.json). В ячейке настроек загрузите сохранённую конфигурацию из этого JSON. Если в вашей версии ячейка ожидает `WINNER_SETTINGS`, вставьте её по инструкции в ноутбуке. После проверки 400 ID скачайте `submission.jsonl`.
+## Повторный инференс на GPU
 
-**Результаты:** [бейзлайны](results/leaderboard_baseline.csv) · [эффект экспериментов](results/experiments_comparison.csv) · [общий лидерборд](results/leaderboard.csv) · [посылка](results/submission.jsonl).
+В Kaggle включи GPU и Internet, склонируй репозиторий в `/kaggle/working/data-labeling-shad` и открой нужный ноутбук из списка выше. В окружении с CUDA и установленным PyTorch добавь пакеты для метрик из раздела выше и зависимости для нужного прогона. Например, для строгого Qwen:
+
+```bash
+python -m pip install accelerate "transformers==4.57.1"
+```
+
+Для бейзлайнов подставь версию из таблицы. Для Grounding DINO и OWLv2 также нужен `torchvision`, совместимый с установленным PyTorch. После переустановки импортированных пакетов перезапусти ядро. В ноутбуке включи флаг `RERUN_...` нужной модели и выполни её ячейку. Общий код находится в [workflow.py](model_comparison/workflow.py).
+
+| Прогон | Transformers | PyTorch в сохранённых настройках |
+|---|---|---|
+| Grounding DINO и OWLv2 | `5.20.2` | `2.11.0+cu130` |
+| Qwen, исходный бейзлайн | `5.22.1` | `2.14.1+cu130` |
+| Qwen, уточнённый промпт и Контест | `4.57.1` | `2.11.0+cu130` |
+
+У сохранённых прогонов Qwen различались окружения. Чтобы проверить эффект промпта отдельно, в ноутбуке экспериментов включи оба флага и `SAME_ENVIRONMENT=True` в одном окружении с Transformers 4.57.1. Результаты повторных прогонов сохраняются в `runs/`. Конфигурации берутся из [настроек бейзлайнов](model_comparison/results/raw/) и [настроек Qwen](model_comparison/results/experiments/qwen/qwen.experiment.json).
+
+Исходные [Kaggle-ноутбуки](model_comparison/notebooks/kaggle/) содержат выводы, сохранённые при первоначальной работе. Для повторного запуска используй ноутбуки из списка выше.
+
+## Посылка
+
+Получить точную копию [сданного JSONL](model_comparison/results/submission.jsonl) на CPU:
+
+```bash
+python -m model_comparison.run_production --replay --output-dir runs/submission_replay
+```
+
+Повторить инференс строгого Qwen на экзаменационных фото в CUDA-окружении с Transformers 4.57.1:
+
+```bash
+python -m model_comparison.run_production --output-dir runs/production_qwen
+```
+
+Новый запуск берёт промпт и ревизию весов из настроек победителя, валидирует 400 предсказаний и сообщает о побайтном совпадении с опубликованным файлом. При прерывании повтор команды с той же папкой результатов и в том же окружении продолжает обработку. После смены окружения используй другую папку.
+
+## Файлы результатов
+
+| Путь в `model_comparison/results/` | Содержимое |
+|---|---|
+| `raw/` | Кандидаты, тайминг, настройки и версии бейзлайнов |
+| `predictions/` | JSONL трёх бейзлайнов |
+| `experiments/dino/` | Рамки Grounding DINO после удаления дублей |
+| `experiments/qwen/` | Предсказания двух промптов и конфигурации Qwen |
+| `tables/` | Общие и групповые метрики |
+| `preview/` | Сохранённая проверка Grounding DINO на одном кадре |
+| `submission.jsonl` | Исходная посылка на 400 экзаменационных фото |
