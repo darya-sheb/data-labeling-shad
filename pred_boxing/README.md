@@ -1,6 +1,17 @@
 # Предразметка и фильтрация моделью
 
-Используются две нейросетки: YOLO-World и Codex. Идея простая: YOLO предлагает рамки, а Codex смотрит на фото и исправляет разметку. На вход подаём `dataset.json` со ссылками на фотографии, на выходе получаем `dataset_boxed.json`.
+Используются две нейросетки: YOLO-World и Codex. Идея простая: YOLO предлагает рамки, а Codex смотрит на фото и исправляет разметку. На вход подаём [dataset.json](dataset.json) со ссылками на фотографии, на выходе получаем `dataset_boxed.json`.
+
+## Что лежит в папке
+
+- [filter_dataset.py](filter_dataset.py) — сам пайплайн предразметки.
+- [dataset.json](dataset.json) — исходный датасет на 400 фото.
+- [butterflies_extra_meta.json](butterflies_extra_meta.json) — дополнительный датасет на 64 фото.
+- [Final_filtration_prediction/](Final_filtration_prediction/) — разметка основного датасета: [есть ли бабочки](Final_filtration_prediction/dataset_filtered.json) и [рамки](Final_filtration_prediction/dataset_boxed.json).
+- [Extra_filtration_prediction/](Extra_filtration_prediction/) — разметка дополнительного датасета: [есть ли бабочки](Extra_filtration_prediction/dataset_filtered.json) и [рамки](Extra_filtration_prediction/dataset_boxed.json).
+- [assets/](assets/) — картинки для этого README.
+
+Папка `datasets/` пока пустая.
 
 ## Как это работает
 
@@ -14,7 +25,7 @@
 
 ## Пример разметки
 
-Ниже уже готовые рамки из дополнительного датасета `Extra_filtration_prediction/dataset_boxed.json`.
+Ниже уже готовые рамки из дополнительного датасета [Extra_filtration_prediction/dataset_boxed.json](Extra_filtration_prediction/dataset_boxed.json).
 
 ![Примеры фотографий бабочек с рамками](assets/annotation_examples.jpg)
 
