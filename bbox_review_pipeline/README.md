@@ -13,6 +13,34 @@
 | Посмотреть задания валидатора | [Инструкция](interfaces/validation/instructions.html) · [интерфейс](interfaces/validation/) · [урок](data/validation_lesson.json) · [экзамен](data/validation_exam.json) · [контрольные фото](data/validation_controls.json) |
 | Найти код рабочего цикла | [Создание проектов и пулов](app/deployment.py) · [обработчик](app/worker.py) · [отправка на проверку и исправление](app/routing.py) · [подсчёт голосов](app/models.py) · [сбор результата](app/review.py) |
 
+## Пулы и интерфейсы заданий
+
+Ссылки ведут в кабинет заказчика Яндекс Заданий. Для просмотра нужен доступ к проекту.
+
+| Проект | Обучение | Экзамен | Рабочие пулы |
+|---|---|---|---|
+| [Разметка](https://tasks.yandex.ru/requester/project/11891) | [Обучение](https://tasks.yandex.ru/requester/project/11891/training/6869749) | [Экзамен разметчиков](https://tasks.yandex.ru/requester/project/11891/pool/6869750) | [Исправление разметки](https://tasks.yandex.ru/requester/project/11891/pool/6869751) |
+| [Валидация](https://tasks.yandex.ru/requester/project/11892) | [Обучение](https://tasks.yandex.ru/requester/project/11892/training/6869894) | [Экзамен валидаторов](https://tasks.yandex.ru/requester/project/11892/pool/6869752) | [Проверка рабочих фото](https://tasks.yandex.ru/requester/project/11892/pool/6869754) · [Проверка экзаменационных фото разметчиков](https://tasks.yandex.ru/requester/project/11892/pool/6869753) |
+
+На скриншотах — фото № 761031680 в локальном предпросмотре тех же шаблонов, которые загружены в пулы.
+
+**1. Разметчик исправляет границы.** Справа видно замечание к выбранной оранжевой рамке. Красным пунктиром показаны уже принятые рамки.
+
+![Редактор разметки с выбранной рамкой и замечанием «Неточные границы».](report_assets/annotation-task.webp)
+
+**2. Валидатор проверяет исправление.** Оранжевым выделена текущая рамка, синим — следующая. Справа от фото валидатор выбирает оценку.
+
+![Проверка первой из двух исправленных рамок с четырьмя вариантами ответа.](report_assets/validation-task.webp)
+
+<details>
+<summary><b>3. Валидатор проверяет, остались ли бабочки без рамки</b></summary>
+
+После оценки отдельных рамок валидатор видит все рамки сразу и отвечает на последний вопрос по фото.
+
+![Последний шаг валидации с вопросом о невыделенных бабочках и двумя вариантами ответа.](report_assets/validation-coverage.webp)
+
+</details>
+
 ## Путь фотографии
 
 ```mermaid
