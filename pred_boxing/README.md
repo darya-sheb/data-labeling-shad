@@ -11,7 +11,6 @@
 - [Extra_filtration_prediction/](Extra_filtration_prediction/) — разметка дополнительного датасета: [есть ли бабочки](Extra_filtration_prediction/dataset_filtered.json) и [рамки](Extra_filtration_prediction/dataset_boxed.json).
 - [assets/](assets/) — картинки для этого README.
 
-Папка `datasets/` пока пустая.
 
 ## Как это работает
 
