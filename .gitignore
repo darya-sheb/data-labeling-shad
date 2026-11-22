@@ -221,3 +221,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Notebook outputs and Windows download metadata
+/runs/
+*:Zone.Identifier

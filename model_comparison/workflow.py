@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 from .models.configs import Config
-from .models.detectors import choose_device, select_boxes
+from .models.detectors import select_boxes
 from .models.metrics import evaluate, iou_matrix
 from .models.pipeline import read_jsonl, read_manifest, run_model, write_jsonl
 
@@ -33,22 +33,38 @@ def run_directory(path):
     return path
 
 
-def infer_validation(settings, photos, output_dir):
+def production_settings():
+    return json.loads(QWEN_EXPERIMENT.read_text(encoding="utf-8"))["settings"][QWEN_WINNER]
+
+
+def check_production_runtime():
+    settings = production_settings()
     os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
     os.environ.setdefault("HF_HUB_DOWNLOAD_TIMEOUT", "120")
 
     import torch
     import transformers
 
+    if str(torch.__version__) != settings["torch"] or transformers.__version__ != settings["transformers"]:
+        raise RuntimeError(
+            f"Нужны torch=={settings['torch']} и transformers=={settings['transformers']}; "
+            f"найдены torch=={torch.__version__} и transformers=={transformers.__version__}"
+        )
+    if not torch.cuda.is_available():
+        raise RuntimeError("Для нового прогона нужна CUDA")
+    print(f"{torch.cuda.get_device_name(0)} | torch {torch.__version__} | transformers {transformers.__version__}")
+
+
+def infer_validation(config, photos, output_dir):
     output_dir = run_directory(output_dir)
-    if transformers.__version__ != settings["transformers"]:
-        raise RuntimeError(f"Для этого запуска нужен transformers=={settings['transformers']}")
-    device = choose_device()
-    print(f"Устройство: {device} | torch {torch.__version__}")
-    if str(torch.__version__) != settings["torch"]:
-        print(f"В исходном прогоне использовался torch {settings['torch']}")
-    config = Config(**settings["config"])
-    raw = run_model(config, photos, output_dir / f"{config.name}.raw.jsonl", device)
+    check_production_runtime()
+    raw_path = output_dir / f"{config.name}.raw.jsonl"
+    raw = run_model(config, photos, raw_path, "cuda")
+    if raw.keys() != photos.keys():
+        raise RuntimeError(f"{config.name}: набор photo_id отличается от датасета")
+    errors = sum(row["error"] is not None for row in raw.values())
+    if errors:
+        raise RuntimeError(f"{config.name}: {errors} ошибок. Повтори запуск с тем же каталогом: {raw_path.parent}")
     predictions = predictions_from_raw(raw, config.threshold)
     write_jsonl(output_dir / f"{config.name}.jsonl", predictions.values())
     return predictions, elapsed(raw)
@@ -72,7 +88,12 @@ def elapsed(raw):
 def baseline(name, photos, *, rerun=False, output_dir=None):
     settings = json.loads((RESULTS / f"raw/{name}.settings.json").read_text())
     if rerun:
-        return infer_validation(settings, photos, output_dir)
+        config = Config(**settings["config"])
+        if name == "qwen":
+            # Для пары Qwen за основу берём конфиг продакшена, меняя только текст.
+            config = Config(**{**production_settings()["config"], "name": name,
+                               "prompt": config.prompt})
+        return infer_validation(config, photos, output_dir)
 
     raw = read_jsonl(RESULTS / f"raw/{name}.jsonl")
     published = read_jsonl(RESULTS / f"predictions/{name}.jsonl")
@@ -81,17 +102,13 @@ def baseline(name, photos, *, rerun=False, output_dir=None):
     return published, elapsed(raw)
 
 
-def qwen_prompt_variant(photos, *, strict, rerun=False, output_dir=None, same_environment=False):
-    metadata = json.loads(QWEN_EXPERIMENT.read_text())
-    variant = QWEN_WINNER if strict else "reference"
-    settings = metadata["settings"][variant]
-    name = QWEN_WINNER if strict else "qwen__reference"
+def qwen_prompt_variant(photos, *, strict, rerun=False, output_dir=None):
     if rerun:
-        if same_environment and not strict:
-            settings = {**metadata["settings"][QWEN_WINNER], "config": settings["config"]}
-        settings = {**settings, "config": {**settings["config"], "name": name}}
-        return infer_validation(settings, photos, output_dir)
+        if not strict:
+            return baseline("qwen", photos, rerun=True, output_dir=output_dir)
+        return infer_validation(Config(**production_settings()["config"]), photos, output_dir)
 
+    name = QWEN_WINNER if strict else "qwen__reference"
     predictions = read_jsonl(QWEN_EXPERIMENT.with_name(f"{name}.jsonl"))
     seconds = None if strict else elapsed(read_jsonl(RESULTS / "raw/qwen.jsonl"))
     return predictions, seconds

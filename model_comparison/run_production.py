@@ -1,13 +1,15 @@
 import argparse
 import hashlib
 import json
-import os
 from pathlib import Path
 
 from .models.configs import Config
 from .models.pipeline import export_predictions, run_model, validate_submission
 
-from .workflow import PUBLISHED, PUBLISHED_SHA256, QWEN_EXPERIMENT, QWEN_WINNER, ROOT, run_directory
+from .workflow import (
+    PUBLISHED, PUBLISHED_SHA256, QWEN_EXPERIMENT, QWEN_WINNER, ROOT,
+    check_production_runtime, run_directory,
+)
 
 DEFAULT_SETTINGS = QWEN_EXPERIMENT
 WINNER = QWEN_WINNER
@@ -60,21 +62,8 @@ def run_production(dataset_path, output_dir, settings_path=DEFAULT_SETTINGS):
     ):
         raise ValueError("Нужна сохранённая конфигурация Qwen с фиксированной ревизией весов")
 
-    os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
-    os.environ.setdefault("HF_HUB_DOWNLOAD_TIMEOUT", "120")
-
-    import torch
-    import transformers
-
-    if not torch.cuda.is_available():
-        raise RuntimeError("Для этого прогона включи GPU с CUDA")
-    if transformers.__version__ != settings["transformers"]:
-        raise RuntimeError(f"Установи transformers=={settings['transformers']}")
-    print(f"GPU: {torch.cuda.get_device_name(0)} | torch: {torch.__version__}")
-    if str(torch.__version__) != settings["torch"]:
-        print(f"В сохранённом прогоне использовался torch {settings['torch']}")
-
     output_dir = run_directory(output_dir)
+    check_production_runtime()
     raw_path = output_dir / f"{WINNER}.raw.jsonl"
     raw = run_model(config, manifest, raw_path, "cuda")
     errors = sum(row["error"] is not None for row in raw.values())

@@ -1,0 +1,89 @@
+diff --git a/README.md b/README.md
+index 5579397ca27840627c97045a6d9f893aa2446457..74191535a254a826d0d1dcabb2475ce3d3ad08f7 100644
+--- a/README.md
++++ b/README.md
+@@ -11,9 +11,9 @@ python -m pip install numpy scipy pillow pandas jupyterlab
+ python -m jupyterlab
+ ```
+ 
+-1. [Сравнение бейзлайнов](model_comparison/notebooks/baseline/models_comparison.ipynb) читает сохранённые предсказания, сверяет их с сырыми выходами и показывает метрики каждой модели на всём наборе и по группам.
+-2. [Эксперименты](model_comparison/notebooks/experiments/experiments.ipynb) повторяют удаление дублей у Grounding DINO, сравнивают два промпта Qwen и собирают итоговый лидерборд. Сгенерированные таблицы пишутся в `runs/tables/`.
+-3. [Контест](model_comparison/notebooks/production/production_labeling.py.ipynb) проверяет формат и контрольную сумму исходной посылки, затем восстанавливает точную копию.
++1. [Сравнение бейзлайнов](model_comparison/models_comparison.ipynb) читает сохранённые предсказания, сверяет их с сырыми выходами и показывает метрики каждой модели на всём наборе и по группам.
++2. [Эксперименты](model_comparison/experiments.ipynb) повторяют удаление дублей у Grounding DINO, сравнивают два промпта Qwen и собирают итоговый лидерборд. Сгенерированные таблицы пишутся в `runs/tables/`.
++3. [Контест](model_comparison/production_labeling.ipynb) проверяет формат и контрольную сумму исходной посылки, затем восстанавливает точную копию.
+ 
+ [Бейзлайны и время](model_comparison/results/tables/leaderboard_baseline.csv) · [Сравнение экспериментов](model_comparison/results/tables/experiments_comparison.csv) · [Лидерборд](model_comparison/results/tables/leaderboard.csv) · [Метрики по группам](model_comparison/results/tables/leaderboard_by_group.csv)
+ 
+@@ -28,9 +28,9 @@ python -m pip install -r requirements.txt
+ 
+ После установки перезапусти ядро. Подходящие для продакшена версии проверяются перед инференсом: PyTorch `2.11.0+cu130` и Transformers `4.57.1`.
+ 
+-**Для полного сравнения открой [experiments.ipynb](model_comparison/notebooks/experiments/experiments.ipynb), поставь `RERUN_ALL=True` и выполни Run All.** Ноутбук отдельными ячейками посчитает Grounding DINO, его вариант без дублей, Qwen с обоими промптами и бейзлайн OWLv2. В паре Qwen веса, обработка и окружение общие. Меняется текст промпта. В паре Grounding DINO меняется только постобработка рамок. Сырые предсказания, настройки и таблицы появятся в `runs/production_validation/`. Повтор с тем же окружением продолжает обработку при прерывании.
++**Для полного сравнения открой [experiments.ipynb](model_comparison/experiments.ipynb), поставь `RERUN_ALL=True` и выполни Run All.** Ноутбук отдельными ячейками посчитает Grounding DINO, его вариант без дублей, Qwen с обоими промптами и бейзлайн OWLv2. В паре Qwen веса, обработка и окружение общие. Меняется текст промпта. В паре Grounding DINO меняется только постобработка рамок. Сырые предсказания, настройки и таблицы появятся в `runs/production_validation/`. Повтор с тем же окружением продолжает обработку при прерывании.
+ 
+-В режиме по умолчанию ноутбуки пересчитывают сохранённые результаты. В `results/` лежат исторические прогоны с их фактическими версиями библиотек, в том числе два варианта Qwen, запущенные в разных окружениях. Выводы с численными значениями в ноутбуках относятся к этим прогонам. Для новых измерений смотри таблицы в `runs/production_validation/tables/`. Исходные [Kaggle-ноутбуки](model_comparison/notebooks/kaggle/) сохранены с выводами первоначальных запусков.
++В режиме по умолчанию ноутбуки пересчитывают сохранённые результаты. В `results/` лежат исторические прогоны с их фактическими версиями библиотек, в том числе два варианта Qwen, запущенные в разных окружениях. Выводы с численными значениями в ноутбуках относятся к этим прогонам. Для новых измерений смотри таблицы в `runs/production_validation/tables/`. В [архиве ноутбуков](model_comparison/archive/) лежат исходные запуски с их выводами и ноутбук для подготовки данных.
+ 
+ ## Посылка
+ 
+diff --git a/model_comparison/notebooks/kaggle/models_comparison_original.ipynb b/model_comparison/archive/models_comparison_original.ipynb
+similarity index 99%
+rename from model_comparison/notebooks/kaggle/models_comparison_original.ipynb
+rename to model_comparison/archive/models_comparison_original.ipynb
+index 5de74513eb92bf3107a57991e86006b96abfb217..cf59aff6d3a735e4a0d77651cbc3bc7f89e94367 100644
+--- a/model_comparison/notebooks/kaggle/models_comparison_original.ipynb
++++ b/model_comparison/archive/models_comparison_original.ipynb
+@@ -20,10 +20,9 @@
+     "| 7–9. Результаты | `make_leaderboard`, подбор порога, просмотр FP/FN | Сохраняем базовый лидерборд, проводим эксперимент и сравниваем варианты. |\n",
+     "| 10. Контест | `read_contest_manifest`, `read_settings`, `validate_submission` | Используем настройки победителя и проверяем посылку. |\n",
+     "\n",
+-    "В каждом разделе сначала идёт **небольшая проверка**, следом — **применение к данным проекта**. Чтение файлов, инференс, вычисление метрик и экспорт реализованы в `models/`.",
++    "В каждом разделе сначала идёт **небольшая проверка**, следом — **применение к данным проекта**. Чтение файлов, инференс, вычисление метрик и экспорт реализованы в `models/`.\n",
+     "\n",
+-    "\n",
+-    "Историческая версия. Выводы сохранены от первоначального прогона. Для нового запуска используйте [актуальное сравнение бейзлайнов](../baseline/models_comparison.ipynb)."
++    "Историческая версия. Выводы сохранены от первоначального прогона. Для нового запуска используйте [актуальное сравнение бейзлайнов](../models_comparison.ipynb)."
+    ]
+   },
+   {
+diff --git a/model_comparison/notebooks/experiments/prepare_butterfly_validation.ipynb b/model_comparison/archive/prepare_butterfly_validation.ipynb
+similarity index 100%
+rename from model_comparison/notebooks/experiments/prepare_butterfly_validation.ipynb
+rename to model_comparison/archive/prepare_butterfly_validation.ipynb
+diff --git a/model_comparison/notebooks/kaggle/production_original.ipynb b/model_comparison/archive/production_original.ipynb
+similarity index 100%
+rename from model_comparison/notebooks/kaggle/production_original.ipynb
+rename to model_comparison/archive/production_original.ipynb
+diff --git a/model_comparison/notebooks/kaggle/qwen_experiment.ipynb b/model_comparison/archive/qwen_experiment.ipynb
+similarity index 100%
+rename from model_comparison/notebooks/kaggle/qwen_experiment.ipynb
+rename to model_comparison/archive/qwen_experiment.ipynb
+diff --git a/model_comparison/notebooks/kaggle/run_qwen_kaggle.ipynb b/model_comparison/archive/run_qwen_kaggle.ipynb
+similarity index 100%
+rename from model_comparison/notebooks/kaggle/run_qwen_kaggle.ipynb
+rename to model_comparison/archive/run_qwen_kaggle.ipynb
+diff --git a/model_comparison/notebooks/experiments/experiments.ipynb b/model_comparison/experiments.ipynb
+similarity index 100%
+rename from model_comparison/notebooks/experiments/experiments.ipynb
+rename to model_comparison/experiments.ipynb
+diff --git a/model_comparison/notebooks/baseline/models_comparison.ipynb b/model_comparison/models_comparison.ipynb
+similarity index 100%
+rename from model_comparison/notebooks/baseline/models_comparison.ipynb
+rename to model_comparison/models_comparison.ipynb
+diff --git a/model_comparison/notebooks/production/production_labeling.py.ipynb b/model_comparison/production_labeling.ipynb
+similarity index 89%
+rename from model_comparison/notebooks/production/production_labeling.py.ipynb
+rename to model_comparison/production_labeling.ipynb
+index b9104fea80db504848bb97b919088bfd285a96bb..be8da3d1f9155a5ce3456c673af80cbd20bf91e6 100644
+--- a/model_comparison/notebooks/production/production_labeling.py.ipynb
++++ b/model_comparison/production_labeling.ipynb
+@@ -6,7 +6,7 @@
+    "source": [
+     "# Qwen на экзаменационном наборе\n",
+     "\n",
+-    "По умолчанию проверяем и восстанавливаем исходный JSONL с побайтным совпадением. Чтобы запустить модель с нуля, включи GPU и Internet в Kaggle, установи версии из README и поставь `RERUN=True`. Новый файл сохраняется в отдельной папке и сравнивается с опубликованным. Исторический GPU-прогон с выводами записан в [оригинальном ноутбуке](../kaggle/production_original.ipynb)."
++    "По умолчанию проверяем и восстанавливаем исходный JSONL с побайтным совпадением. Чтобы запустить модель с нуля, включи GPU и Internet в Kaggle, установи версии из [README](../README.md) и поставь `RERUN=True`. Новый файл сохраняется в отдельной папке и сравнивается с опубликованным. Исторический GPU-прогон с выводами записан в [оригинальном ноутбуке](archive/production_original.ipynb)."
+    ],
+    "id": "cell-01"
+   },

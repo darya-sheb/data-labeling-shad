@@ -1,2 +1,0 @@
-run,threshold,n_photos,technical_errors,tp_50,fp_50,fn_50,precision_50,recall_50,f1_50,tp_75,fp_75,fn_75,precision_75,recall_75,f1_75,n_negative_photos,negative_photos_with_fp,fp_on_negative_photos,inference_seconds,ms_per_photo
-qwen,0.0,400,0,205,207,13,0.4975728155339806,0.9403669724770642,0.6507936507936508,184,228,34,0.44660194174757284,0.8440366972477065,0.5841269841269842,203,202,206,953.024585596005,2382.5614639900123
