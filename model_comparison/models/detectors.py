@@ -55,7 +55,7 @@ def load_detector(config, device):
     processor = AutoProcessor.from_pretrained(config.model_id, revision=config.revision)
     if config.backend == "qwen":
         from transformers import Qwen3VLForConditionalGeneration
-        dtype = torch.float16 if device.startswith("cuda") else torch.float32
+        dtype = torch.float16 if device.startswith("cuda") else torch.bfloat16
         options = {"dtype": dtype}
         if config.load_in_4bit:
             if not device.startswith("cuda"):

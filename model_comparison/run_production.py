@@ -51,7 +51,7 @@ def replay_submission(output_dir, dataset_path=ROOT / "data/production_dataset.j
     return output
 
 
-def run_production(dataset_path, output_dir, settings_path=DEFAULT_SETTINGS):
+def run_production(dataset_path, output_dir, settings_path=DEFAULT_SETTINGS, *, device="auto"):
     manifest = read_production_dataset(dataset_path)
     metadata = json.loads(Path(settings_path).read_text(encoding="utf-8"))
     settings = metadata["settings"][WINNER]
@@ -63,9 +63,9 @@ def run_production(dataset_path, output_dir, settings_path=DEFAULT_SETTINGS):
         raise ValueError("Нужна сохранённая конфигурация Qwen с фиксированной ревизией весов")
 
     output_dir = run_directory(output_dir)
-    check_production_runtime()
+    device = check_production_runtime(device)
     raw_path = output_dir / f"{WINNER}.raw.jsonl"
-    raw = run_model(config, manifest, raw_path, "cuda")
+    raw = run_model(config, manifest, raw_path, device)
     errors = sum(row["error"] is not None for row in raw.values())
     if errors:
         log_path = raw_path.with_suffix(".errors.jsonl")
@@ -84,6 +84,7 @@ def main():
     parser.add_argument("--dataset", type=Path, default=ROOT / "data/production_dataset.jsonl")
     parser.add_argument("--settings", type=Path, default=DEFAULT_SETTINGS)
     parser.add_argument("--output-dir", type=Path, default=Path("production_run"))
+    parser.add_argument("--device", choices=("auto", "cpu", "cuda"), default="auto")
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--validate-only", type=Path, metavar="SUBMISSION")
     mode.add_argument("--replay", action="store_true", help="Скопировать сданный JSONL без инференса")
@@ -97,7 +98,7 @@ def main():
     if args.replay:
         submission = replay_submission(args.output_dir, args.dataset)
     else:
-        submission = run_production(args.dataset, args.output_dir, args.settings)
+        submission = run_production(args.dataset, args.output_dir, args.settings, device=args.device)
         same = submission.read_bytes() == PUBLISHED.read_bytes()
         print("Совпадение с опубликованной посылкой:", "побайтное" if same else "нет")
     print(f"Посылка готова: {submission} ({submission.stat().st_size:,} байт)")

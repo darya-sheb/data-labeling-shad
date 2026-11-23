@@ -37,29 +37,54 @@ def production_settings():
     return json.loads(QWEN_EXPERIMENT.read_text(encoding="utf-8"))["settings"][QWEN_WINNER]
 
 
-def check_production_runtime():
+def check_production_runtime(device="auto"):
     settings = production_settings()
     os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
     os.environ.setdefault("HF_HUB_DOWNLOAD_TIMEOUT", "120")
 
-    import torch
-    import transformers
-
-    if str(torch.__version__) != settings["torch"] or transformers.__version__ != settings["transformers"]:
+    try:
+        import torch
+        import torchvision
+        import transformers
+    except (ImportError, OSError, RuntimeError) as error:
         raise RuntimeError(
-            f"Нужны torch=={settings['torch']} и transformers=={settings['transformers']}; "
-            f"найдены torch=={torch.__version__} и transformers=={transformers.__version__}"
+            "Не удалось загрузить зависимости для инференса. "
+            "Установи сборки PyTorch и torchvision для своего устройства по model_comparison/README.md "
+            "и перезапусти ядро ноутбука."
+        ) from error
+
+    if device == "auto":
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+    if device not in {"cpu", "cuda"}:
+        raise ValueError("Устройство должно быть auto, cpu или cuda")
+    if device == "cuda" and not torch.cuda.is_available():
+        raise RuntimeError("CUDA недоступна. Выбери cpu или запусти в окружении с NVIDIA GPU.")
+
+    expected_torch = settings["torch"]
+    expected_vision = "0.26.0+cu130"
+    if device == "cpu":
+        expected_torch = expected_torch.split("+")[0] + "+cpu"
+        expected_vision = expected_vision.split("+")[0] + "+cpu"
+    if (
+        str(torch.__version__) != expected_torch
+        or torchvision.__version__ != expected_vision
+        or transformers.__version__ != settings["transformers"]
+    ):
+        raise RuntimeError(
+            f"Для {device} нужны torch=={expected_torch}, torchvision=={expected_vision}, "
+            f"transformers=={settings['transformers']}. "
+            "Команды установки есть в model_comparison/README.md."
         )
-    if not torch.cuda.is_available():
-        raise RuntimeError("Для нового прогона нужна CUDA")
-    print(f"{torch.cuda.get_device_name(0)} | torch {torch.__version__} | transformers {transformers.__version__}")
+    hardware = torch.cuda.get_device_name(0) if device == "cuda" else "CPU"
+    print(f"{hardware} | torch {torch.__version__} | transformers {transformers.__version__}")
+    return device
 
 
-def infer_validation(config, photos, output_dir):
+def infer_validation(config, photos, output_dir, device="auto"):
     output_dir = run_directory(output_dir)
-    check_production_runtime()
+    device = check_production_runtime(device)
     raw_path = output_dir / f"{config.name}.raw.jsonl"
-    raw = run_model(config, photos, raw_path, "cuda")
+    raw = run_model(config, photos, raw_path, device)
     if raw.keys() != photos.keys():
         raise RuntimeError(f"{config.name}: набор photo_id отличается от датасета")
     errors = sum(row["error"] is not None for row in raw.values())
@@ -85,7 +110,7 @@ def elapsed(raw):
     return sum(row["seconds"] for row in raw.values() if row["seconds"] is not None)
 
 
-def baseline(name, photos, *, rerun=False, output_dir=None):
+def baseline(name, photos, *, rerun=False, output_dir=None, device="auto"):
     settings = json.loads((RESULTS / f"raw/{name}.settings.json").read_text())
     if rerun:
         config = Config(**settings["config"])
@@ -93,7 +118,7 @@ def baseline(name, photos, *, rerun=False, output_dir=None):
             # Для пары Qwen за основу берём конфиг продакшена, меняя только текст.
             config = Config(**{**production_settings()["config"], "name": name,
                                "prompt": config.prompt})
-        return infer_validation(config, photos, output_dir)
+        return infer_validation(config, photos, output_dir, device)
 
     raw = read_jsonl(RESULTS / f"raw/{name}.jsonl")
     published = read_jsonl(RESULTS / f"predictions/{name}.jsonl")
@@ -102,11 +127,11 @@ def baseline(name, photos, *, rerun=False, output_dir=None):
     return published, elapsed(raw)
 
 
-def qwen_prompt_variant(photos, *, strict, rerun=False, output_dir=None):
+def qwen_prompt_variant(photos, *, strict, rerun=False, output_dir=None, device="auto"):
     if rerun:
         if not strict:
-            return baseline("qwen", photos, rerun=True, output_dir=output_dir)
-        return infer_validation(Config(**production_settings()["config"]), photos, output_dir)
+            return baseline("qwen", photos, rerun=True, output_dir=output_dir, device=device)
+        return infer_validation(Config(**production_settings()["config"]), photos, output_dir, device)
 
     name = QWEN_WINNER if strict else "qwen__reference"
     predictions = read_jsonl(QWEN_EXPERIMENT.with_name(f"{name}.jsonl"))

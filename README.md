@@ -23,7 +23,9 @@ cmp golden_replay.jsonl data/golden.jsonl
 
 [Инструкция по запуску разметки в Яндекс Заданиях](bbox_review_pipeline/how_to_run.md).
 
-Для пересчёта на CPU откройте [ноутбук бейзлайнов](model_comparison/notebooks/baseline/models_comparison.ipynb) и [ноутбук экспериментов](model_comparison/notebooks/experiments/experiments.ipynb) с `RERUN_ALL=False`. Новые таблицы появятся в `runs/tables/`. Установка зависимостей, повторный инференс на GPU и команды для Контеста описаны в [README сравнения моделей](model_comparison/README.md).
+Для **нового запуска моделей из фотографий** установите зависимости для CPU или NVIDIA GPU по [инструкции инференса](model_comparison/README.md#новый-инференс-из-фотографий), откройте ноутбук экспериментов, задайте `RERUN_ALL=True` и выполните все ячейки.
+
+Для пересчёта опубликованных метрик на CPU откройте [ноутбук бейзлайнов](model_comparison/notebooks/baseline/models_comparison.ipynb) и [ноутбук экспериментов](model_comparison/notebooks/experiments/experiments.ipynb) с `RERUN_ALL=False`. Пересчитанные таблицы появятся в `runs/tables/`, отчёт — в `runs/RESULTS.md`. Установка зависимостей, повторный инференс на GPU и команды для Контеста описаны в [README сравнения моделей](model_comparison/README.md).
 
 ## Участники
 
