@@ -42,26 +42,6 @@ def read_manifest(path):
     return rows
 
 
-def read_contest_manifest(path):
-    path = Path(path)
-    with path.open(encoding="utf-8-sig", newline="") as file:
-        reader = csv.DictReader(file)
-        if not {"photo_id", "image"}.issubset(reader.fieldnames or []):
-            raise ValueError(f"{path}: нужны колонки photo_id и image")
-        rows = {}
-        for row in reader:
-            photo_id = int(row["photo_id"])
-            source = (row["image"] or "").strip()
-            if not source or photo_id in rows:
-                raise ValueError(f"{path}: пустой путь или повтор ID {photo_id}")
-            if not source.startswith(("https://", "http://")):
-                source = str((path.parent / source).resolve())
-            rows[photo_id] = {"image": source, "group": (row.get("group") or "").strip()}
-    if not rows:
-        raise ValueError(f"Пустой манифест: {path}")
-    return rows
-
-
 def open_image(source):
     if source.startswith(("https://", "http://")):
         with urlopen(source, timeout=30) as response:

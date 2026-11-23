@@ -35,5 +35,3 @@ CONFIGS = {
         'Return [] if no adult butterfly or moth is visible.',
     ),
 }
-
-OWL_EXPERIMENT_THRESHOLDS = (0.15, 0.20, 0.25, 0.30)

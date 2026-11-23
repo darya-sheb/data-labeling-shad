@@ -41,12 +41,6 @@ class QwenResponseError(ValueError):
         self.raw_response = raw_response
 
 
-def choose_device():
-    import torch
-
-    return "cuda" if torch.cuda.is_available() else "cpu"
-
-
 def load_detector(config, device):
     import torch
     from transformers import AutoModelForZeroShotObjectDetection, AutoProcessor
