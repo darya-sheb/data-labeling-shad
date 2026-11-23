@@ -14,6 +14,12 @@
 
 [Таблицы и примеры результатов](model_comparison/results/RESULTS.md) · [Предсказания моделей](model_comparison/results/predictions/) · [Сырые выходы и настройки](model_comparison/results/raw/) · [Результаты экспериментов](model_comparison/results/experiments/)
 
+## Галерея разметки
+
+[![Примеры фото, прошедших от нуля до трёх исправлений](bbox_review_pipeline/gallery/overview.webp)](bbox_review_pipeline/gallery/README.md)
+
+[Все 400 фото по типу и числу исправлений](bbox_review_pipeline/gallery/README.md) · [Найти фото по ID](bbox_review_pipeline/gallery/README.md#найти-фото-по-id) · [Как шесть рамок превратились в девять](bbox_review_pipeline/gallery/combined-1.md#761031648)
+
 ## Воспроизведение
 
 Установите виртуальное окружение:
